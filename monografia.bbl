@@ -1,0 +1,2351 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{deAraujo:2021:modeloDados}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=97f10b877f37dad52d4dcaf25bbc59d1}{%
+           family={Araujo\bibnamedelima Gonçalves},
+           familyi={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=dc88e1da0ff6aa5896f11c152f1a0152}{%
+           family={Togneri},
+           familyi={T\bibinitperiod},
+           given={Rodrigo\bibnamedelima Marotti},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{fullhash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{fullhashraw}{75d05468198f7994e07cfac2b07d523a}
+      \strng{bibnamehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authorbibnamehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authornamehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authorfullhash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authorfullhashraw}{75d05468198f7994e07cfac2b07d523a}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FGV RIC Revista de Iniciação Científica}
+      \field{title}{Modelo de dados flexível para análise fundamentalista moderna: um estudo geral com dados no Brasil}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://periodicos.fgv.br/ric/article/view/86064/81092
+      \endverb
+      \verb{url}
+      \verb https://periodicos.fgv.br/ric/article/view/86064/81092
+      \endverb
+    \endentry
+    \entry{deAraujo:2021:modelo}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=97f10b877f37dad52d4dcaf25bbc59d1}{%
+           family={Araujo\bibnamedelima Gonçalves},
+           familyi={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=dc88e1da0ff6aa5896f11c152f1a0152}{%
+           family={Togneri},
+           familyi={T\bibinitperiod},
+           given={Rodrigo\bibnamedelima Marotti},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{fullhash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{fullhashraw}{75d05468198f7994e07cfac2b07d523a}
+      \strng{bibnamehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authorbibnamehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authornamehash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authorfullhash}{75d05468198f7994e07cfac2b07d523a}
+      \strng{authorfullhashraw}{75d05468198f7994e07cfac2b07d523a}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FGV RIC Revista de Iniciação Científica}
+      \field{title}{Modelo de dados flexível para análise fundamentalista moderna: um estudo geral com dados no Brasil}
+      \field{volume}{2}
+      \field{year}{2021}
+    \endentry
+    \entry{attie:2013:bolsa}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=93a413cac459f1428e8dab9b7b961a2f}{%
+           family={Attie},
+           familyi={A\bibinitperiod},
+           given={Paula\bibnamedelima Ingegneri},
+           giveni={P\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=6614c6f2f3ae8addb459209db52c18bd}{%
+           family={Attie},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Campinas}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Estadual de Campinas}%
+      }
+      \strng{namehash}{6614c6f2f3ae8addb459209db52c18bd}
+      \strng{fullhash}{93a413cac459f1428e8dab9b7b961a2f}
+      \strng{fullhashraw}{93a413cac459f1428e8dab9b7b961a2f}
+      \strng{bibnamehash}{6614c6f2f3ae8addb459209db52c18bd}
+      \strng{authorbibnamehash}{93a413cac459f1428e8dab9b7b961a2f}
+      \strng{authornamehash}{93a413cac459f1428e8dab9b7b961a2f}
+      \strng{authorfullhash}{93a413cac459f1428e8dab9b7b961a2f}
+      \strng{authorfullhashraw}{93a413cac459f1428e8dab9b7b961a2f}
+      \strng{shortauthorbibnamehash}{6614c6f2f3ae8addb459209db52c18bd}
+      \strng{shortauthornamehash}{6614c6f2f3ae8addb459209db52c18bd}
+      \strng{shortauthorfullhash}{6614c6f2f3ae8addb459209db52c18bd}
+      \strng{shortauthorfullhashraw}{6614c6f2f3ae8addb459209db52c18bd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{nameaddon}{Universidade Estadual de Campinas}
+      \field{title}{O mercado financeiro e a sustentabilidade: o papel das bolsas de valores}
+      \field{type}{Dissertação de Mestrado}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doi.org/10.47749/T/UNICAMP.2013.919566
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.47749/T/UNICAMP.2013.919566
+      \endverb
+    \endentry
+    \entry{b3:2023:relatorio}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=521c612fd6c16c114041bb154b277f16}{%
+           family={{Brasil, Bolsa, Balcão (B3)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=0c4ecd7b59ebc5b9f47974cb9845fd02}{%
+           family={B3},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {B3, a bolsa do Brasil}%
+      }
+      \strng{namehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{fullhash}{521c612fd6c16c114041bb154b277f16}
+      \strng{fullhashraw}{521c612fd6c16c114041bb154b277f16}
+      \strng{bibnamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{authorbibnamehash}{521c612fd6c16c114041bb154b277f16}
+      \strng{authornamehash}{521c612fd6c16c114041bb154b277f16}
+      \strng{authorfullhash}{521c612fd6c16c114041bb154b277f16}
+      \strng{authorfullhashraw}{521c612fd6c16c114041bb154b277f16}
+      \strng{shortauthorbibnamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthornamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthorfullhash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthorfullhashraw}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{B3}
+      \field{title}{Relatório Anual 2023}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://api.mziq.com/mzfilemanager/v2/d/5fd7b7d8-54a1-472d-8426-eb896ad8a3c4/c322dd29-8e26-b81a-53a6-b5e2d70db984?origin=1
+      \endverb
+      \verb{url}
+      \verb https://api.mziq.com/mzfilemanager/v2/d/5fd7b7d8-54a1-472d-8426-eb896ad8a3c4/c322dd29-8e26-b81a-53a6-b5e2d70db984?origin=1
+      \endverb
+    \endentry
+    \entry{b3:2023:estruturadados}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=139c131b174a8e8ae529d99b7d00ece3}{%
+           family={{Brasil, Bolsa, Balcão - (B3)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=0c4ecd7b59ebc5b9f47974cb9845fd02}{%
+           family={B3},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {B3, a bolsa do Brasil}%
+      }
+      \strng{namehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{fullhash}{139c131b174a8e8ae529d99b7d00ece3}
+      \strng{fullhashraw}{139c131b174a8e8ae529d99b7d00ece3}
+      \strng{bibnamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{authorbibnamehash}{139c131b174a8e8ae529d99b7d00ece3}
+      \strng{authornamehash}{139c131b174a8e8ae529d99b7d00ece3}
+      \strng{authorfullhash}{139c131b174a8e8ae529d99b7d00ece3}
+      \strng{authorfullhashraw}{139c131b174a8e8ae529d99b7d00ece3}
+      \strng{shortauthorbibnamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthornamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthorfullhash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthorfullhashraw}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{B3}
+      \field{title}{Dados de mercado}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/mercado-a-vista/dados-de-mercado/
+      \endverb
+      \verb{url}
+      \verb https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/mercado-a-vista/dados-de-mercado/
+      \endverb
+    \endentry
+    \entry{brasil:1976:lei6385}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=aa43becf0d21463be7540bf3b40bf243}{%
+           family={Brasil},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{bibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorbibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authornamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Diário Oficial da União: seção 1, Brasília, DF, 9 dez. 1976}
+      \field{note}{Dispõe sobre o mercado de valores mobiliários e cria a Comissão de Valores Mobiliários}
+      \field{title}{Lei n° 6.385, de 7 de dezembro de 1976}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{1976}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.planalto.gov.br/ccivil_03/leis/l6385.htm
+      \endverb
+      \verb{url}
+      \verb https://www.planalto.gov.br/ccivil_03/leis/l6385.htm
+      \endverb
+    \endentry
+    \entry{b3:2023:investidores}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=521c612fd6c16c114041bb154b277f16}{%
+           family={{Brasil, Bolsa, Balcão (B3)}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=0c4ecd7b59ebc5b9f47974cb9845fd02}{%
+           family={B3},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {B3, a bolsa do Brasil}%
+      }
+      \strng{namehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{fullhash}{521c612fd6c16c114041bb154b277f16}
+      \strng{fullhashraw}{521c612fd6c16c114041bb154b277f16}
+      \strng{bibnamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{authorbibnamehash}{521c612fd6c16c114041bb154b277f16}
+      \strng{authornamehash}{521c612fd6c16c114041bb154b277f16}
+      \strng{authorfullhash}{521c612fd6c16c114041bb154b277f16}
+      \strng{authorfullhashraw}{521c612fd6c16c114041bb154b277f16}
+      \strng{shortauthorbibnamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthornamehash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthorfullhash}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \strng{shortauthorfullhashraw}{0c4ecd7b59ebc5b9f47974cb9845fd02}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{note}{Estudo Pessoa Física}
+      \field{subtitle}{Número total de investidores chega a 17,6 milhões. Valor sob custódia bate R\$ 2,2 trilhões}
+      \field{title}{Número de investidores na B3 cresce 34\% em renda fixa e 23\% em renda variável em 12 meses}
+      \field{urlday}{14}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.b3.com.br/pt_br/noticias/numero-de-investidores-na-b3-cresce-34-em-renda-fixa-e-23-em-renda-variavel-em-12-meses.htm
+      \endverb
+      \verb{url}
+      \verb https://www.b3.com.br/pt_br/noticias/numero-de-investidores-na-b3-cresce-34-em-renda-fixa-e-23-em-renda-variavel-em-12-meses.htm
+      \endverb
+    \endentry
+    \entry{cervo:1983:metodologia}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=3a7d7f1732528a7885c47ceb7614a561}{%
+           family={Cervo},
+           familyi={C\bibinitperiod},
+           given={Amado\bibnamedelima Luiz},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=fc2c4dd8a70783f7c2e691ee7688dac6}{%
+           family={Bervian},
+           familyi={B\bibinitperiod},
+           given={Pedro\bibnamedelima Alcino},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{668a9a27beeebb455ee59a152f700a01}
+      \strng{fullhash}{668a9a27beeebb455ee59a152f700a01}
+      \strng{fullhashraw}{668a9a27beeebb455ee59a152f700a01}
+      \strng{bibnamehash}{668a9a27beeebb455ee59a152f700a01}
+      \strng{authorbibnamehash}{668a9a27beeebb455ee59a152f700a01}
+      \strng{authornamehash}{668a9a27beeebb455ee59a152f700a01}
+      \strng{authorfullhash}{668a9a27beeebb455ee59a152f700a01}
+      \strng{authorfullhashraw}{668a9a27beeebb455ee59a152f700a01}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metodologia científica}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{1983}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{claessens:2017:macroeconomic}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=65a7a53a50cb600f5717488a05c60ec1}{%
+           family={Claessens},
+           familyi={C\bibinitperiod},
+           given={Stijn},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a33f553d6a3864f7a477de73bcce1136}{%
+           family={Kose},
+           familyi={K\bibinitperiod},
+           given={M\bibnamedelima Ayhan},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BIS Working Paper}%
+      }
+      \strng{namehash}{c7ea44028683427d730778eaf94f3234}
+      \strng{fullhash}{c7ea44028683427d730778eaf94f3234}
+      \strng{fullhashraw}{c7ea44028683427d730778eaf94f3234}
+      \strng{bibnamehash}{c7ea44028683427d730778eaf94f3234}
+      \strng{authorbibnamehash}{c7ea44028683427d730778eaf94f3234}
+      \strng{authornamehash}{c7ea44028683427d730778eaf94f3234}
+      \strng{authorfullhash}{c7ea44028683427d730778eaf94f3234}
+      \strng{authorfullhashraw}{c7ea44028683427d730778eaf94f3234}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Macroeconomic implications of financial imperfections: a survey}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3076410
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3076410
+      \endverb
+    \endentry
+    \entry{cvm:2023:funcoes}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f2b88a616da82ae48011c499f9f5d52}{%
+           family={{Comissão de Valores Mobiliários - (CVM)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=ca5a217db481db5bcc9f61870f0a2da7}{%
+           family={CVM},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CVM}%
+      }
+      \strng{namehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{fullhash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{fullhashraw}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{bibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{authorbibnamehash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authornamehash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authorfullhash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authorfullhashraw}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{shortauthorbibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthornamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhashraw}{ca5a217db481db5bcc9f61870f0a2da7}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{CVM}
+      \field{title}{{Funções da CVM}}
+      \field{urlday}{6}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/cvm/pt-br/acesso-a-informacao-cvm/institucional/competencia
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/cvm/pt-br/acesso-a-informacao-cvm/institucional/competencia
+      \endverb
+    \endentry
+    \entry{cvm:2009:informacao}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f2b88a616da82ae48011c499f9f5d52}{%
+           family={{Comissão de Valores Mobiliários - (CVM)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=ca5a217db481db5bcc9f61870f0a2da7}{%
+           family={CVM},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CVM}%
+      }
+      \strng{namehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{fullhash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{fullhashraw}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{bibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{authorbibnamehash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authornamehash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authorfullhash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authorfullhashraw}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{shortauthorbibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthornamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhashraw}{ca5a217db481db5bcc9f61870f0a2da7}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{CVM}
+      \field{title}{{O que é a CVM ?}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/cvm/pt-br/acesso-a-informacao-cvm/servidores/estagio/2-materia-cvm-e-o-mercado-de-capitais
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/cvm/pt-br/acesso-a-informacao-cvm/servidores/estagio/2-materia-cvm-e-o-mercado-de-capitais
+      \endverb
+    \endentry
+    \entry{cvm:2023:relatorioanual}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4f2b88a616da82ae48011c499f9f5d52}{%
+           family={{Comissão de Valores Mobiliários - (CVM)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=ca5a217db481db5bcc9f61870f0a2da7}{%
+           family={CVM},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{fullhash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{fullhashraw}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{bibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{authorbibnamehash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authornamehash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authorfullhash}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{authorfullhashraw}{4f2b88a616da82ae48011c499f9f5d52}
+      \strng{shortauthorbibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthornamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhashraw}{ca5a217db481db5bcc9f61870f0a2da7}
+      \field{extraname}{3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{CVM}
+      \field{title}{Relatório Anual da CVM}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/cvm/pt-br/centrais-de-conteudo/publicacoes/relatorios/anual
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/cvm/pt-br/centrais-de-conteudo/publicacoes/relatorios/anual
+      \endverb
+    \endentry
+    \entry{connolly:2015:database}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=b17c61bc6fda8f37c9a0d2f82d746d96}{%
+           family={Connolly},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2600dc2ff790e048ad2a51c4c452db0d}{%
+           family={Begg},
+           familyi={B\bibinitperiod},
+           given={Carolyn},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{fullhash}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{fullhashraw}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{bibnamehash}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{authorbibnamehash}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{authornamehash}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{authorfullhash}{d7ce7c351fb7ee87bfb114b66c702399}
+      \strng{authorfullhashraw}{d7ce7c351fb7ee87bfb114b66c702399}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Database systems: a practical approach to design, implementation, and management}
+      \field{year}{2015}
+    \endentry
+    \entry{costa:2024:integraccao}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=e2ce946191b9cba9966ed93f1b3640a1}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod}}}%
+        {{hash=840b3157632b3edf0936e93264c60c30}{%
+           family={Ferreirinha},
+           familyi={F\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=01860810a9220d6cba131167390b793e}{%
+           family={Resende},
+           familyi={R\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {UMinho Editora}%
+      }
+      \strng{namehash}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{fullhash}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{fullhashraw}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{bibnamehash}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{authorbibnamehash}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{authornamehash}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{authorfullhash}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \strng{authorfullhashraw}{11fb2f2072b47bbef433cd2ca32c72b4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{5{º} Congresso Português de Building Information Modelling Volume 1: ptBIM}
+      \field{title}{Integração de dados na construção: Desafios e soluções}
+      \field{year}{2024}
+      \field{pages}{349\bibrangedash 360}
+      \range{pages}{12}
+    \endentry
+    \entry{damodaran:2012:investimentos}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=063f60692f2f4aa0aa54afd9bd84e4a0}{%
+           family={Damodaran},
+           familyi={D\bibinitperiod},
+           given={Aswath},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{fullhash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{fullhashraw}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{bibnamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorbibnamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authornamehash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorfullhash}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \strng{authorfullhashraw}{063f60692f2f4aa0aa54afd9bd84e4a0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{isbn}{978-1118011522}
+      \field{title}{Investment Valuation: Tools and Techniques for Determining the Value of Any Asset}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?id=E8-30Pga-nkC&printsec=frontcover&hl=pt-BR
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?id=E8-30Pga-nkC&printsec=frontcover&hl=pt-BR
+      \endverb
+    \endentry
+    \entry{dantas:2020:comportamento}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=32747212e78615346fca72720e054122}{%
+           family={Dantas},
+           familyi={D\bibinitperiod},
+           given={Murilo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pontifícia Universidade Católica de Goiás}%
+      }
+      \strng{namehash}{32747212e78615346fca72720e054122}
+      \strng{fullhash}{32747212e78615346fca72720e054122}
+      \strng{fullhashraw}{32747212e78615346fca72720e054122}
+      \strng{bibnamehash}{32747212e78615346fca72720e054122}
+      \strng{authorbibnamehash}{32747212e78615346fca72720e054122}
+      \strng{authornamehash}{32747212e78615346fca72720e054122}
+      \strng{authorfullhash}{32747212e78615346fca72720e054122}
+      \strng{authorfullhashraw}{32747212e78615346fca72720e054122}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comportamento da bolsa de valores no Brasil diante das crises globais de 2008 e 2020}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://repositorio.pucgoias.edu.br/jspui/handle/123456789/1251
+      \endverb
+      \verb{url}
+      \verb https://repositorio.pucgoias.edu.br/jspui/handle/123456789/1251
+      \endverb
+    \endentry
+    \entry{delalibera:2023:automatizaccao}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f8221b9292a7db6821acde0503810409}{%
+           family={Delalibera},
+           familyi={D\bibinitperiod},
+           given={Wesley},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Estadual do Oeste do Paraná}%
+      }
+      \strng{namehash}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{fullhash}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{fullhashraw}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{bibnamehash}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{authorbibnamehash}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{authornamehash}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{authorfullhash}{2b5476f43117c71a3e3b0f0973844770}
+      \strng{authorfullhashraw}{2b5476f43117c71a3e3b0f0973844770}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatização do Modelo Rojo de Análise Fundamentalista}
+      \field{year}{2023}
+    \endentry
+    \entry{domingues:2020:modelagem}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9815fb4505eff892ff9ed015082dade7}{%
+           family={DOMINGUES},
+           familyi={D\bibinitperiod},
+           given={OSMAR},
+           giveni={O\bibinitperiod}}}%
+        {{hash=8e26c0c0644d8916e0651d4f71377e0b}{%
+           family={ALMEIDA},
+           familyi={A\bibinitperiod},
+           given={GUILHERME\bibnamedelimb LAMOUNIER\bibnamedelima MASCHIETTO},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6746d266bf668210721d18b3f6677488}
+      \strng{fullhash}{6746d266bf668210721d18b3f6677488}
+      \strng{fullhashraw}{6746d266bf668210721d18b3f6677488}
+      \strng{bibnamehash}{6746d266bf668210721d18b3f6677488}
+      \strng{authorbibnamehash}{6746d266bf668210721d18b3f6677488}
+      \strng{authornamehash}{6746d266bf668210721d18b3f6677488}
+      \strng{authorfullhash}{6746d266bf668210721d18b3f6677488}
+      \strng{authorfullhashraw}{6746d266bf668210721d18b3f6677488}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MODELAGEM DE COINTEGRAçãO EM ATIVOS FINANCEIROS}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aprepro.org.br/conbrepro/2020/anais/arquivos/09222020_120944_5f6a119ce2bee.pdf
+      \endverb
+      \verb{url}
+      \verb https://aprepro.org.br/conbrepro/2020/anais/arquivos/09222020_120944_5f6a119ce2bee.pdf
+      \endverb
+    \endentry
+    \entry{elmasri:2016:fundamentals}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=c7e2fe1a0e649bf469f3feb7c5aa840d}{%
+           family={Elmasri},
+           familyi={E\bibinitperiod},
+           given={Ramez},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4ae94109c6efa1688beb655559324ba2}{%
+           family={Navathe},
+           familyi={N\bibinitperiod},
+           given={Shamkant\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {pearson}%
+      }
+      \strng{namehash}{2e8829be23557c692dac07b198a7df6e}
+      \strng{fullhash}{2e8829be23557c692dac07b198a7df6e}
+      \strng{fullhashraw}{2e8829be23557c692dac07b198a7df6e}
+      \strng{bibnamehash}{2e8829be23557c692dac07b198a7df6e}
+      \strng{authorbibnamehash}{2e8829be23557c692dac07b198a7df6e}
+      \strng{authornamehash}{2e8829be23557c692dac07b198a7df6e}
+      \strng{authorfullhash}{2e8829be23557c692dac07b198a7df6e}
+      \strng{authorfullhashraw}{2e8829be23557c692dac07b198a7df6e}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of database systems seventh edition}
+      \field{year}{2016}
+    \endentry
+    \entry{elmasri:2005:sistemas}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=c7e2fe1a0e649bf469f3feb7c5aa840d}{%
+           family={Elmasri},
+           familyi={E\bibinitperiod},
+           given={Ramez},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4ae94109c6efa1688beb655559324ba2}{%
+           family={Navathe},
+           familyi={N\bibinitperiod},
+           given={Shamkant\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=226ff98b5cf9b66ef383a69cfbdd9564}{%
+           family={Pinheiro},
+           familyi={P\bibinitperiod},
+           given={Marília\bibnamedelima Guimarães},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Addison Wesley São Paulo}%
+      }
+      \strng{namehash}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{fullhash}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{fullhashraw}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{bibnamehash}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{authorbibnamehash}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{authornamehash}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{authorfullhash}{2148117cf5d7cf91f3600d588bd8efda}
+      \strng{authorfullhashraw}{2148117cf5d7cf91f3600d588bd8efda}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sistemas de banco de dados}
+      \field{year}{2005}
+    \endentry
+    \entry{santander:2024:pregao}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c64106d17b3d17acd754c348dd51ab0}{%
+           family={{Equipe Santander}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=48d6a10f93b6c188784d6a57d655c33d}{%
+           family={Santander},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Santander Brasil}%
+      }
+      \strng{namehash}{48d6a10f93b6c188784d6a57d655c33d}
+      \strng{fullhash}{9c64106d17b3d17acd754c348dd51ab0}
+      \strng{fullhashraw}{9c64106d17b3d17acd754c348dd51ab0}
+      \strng{bibnamehash}{48d6a10f93b6c188784d6a57d655c33d}
+      \strng{authorbibnamehash}{9c64106d17b3d17acd754c348dd51ab0}
+      \strng{authornamehash}{9c64106d17b3d17acd754c348dd51ab0}
+      \strng{authorfullhash}{9c64106d17b3d17acd754c348dd51ab0}
+      \strng{authorfullhashraw}{9c64106d17b3d17acd754c348dd51ab0}
+      \strng{shortauthorbibnamehash}{48d6a10f93b6c188784d6a57d655c33d}
+      \strng{shortauthornamehash}{48d6a10f93b6c188784d6a57d655c33d}
+      \strng{shortauthorfullhash}{48d6a10f93b6c188784d6a57d655c33d}
+      \strng{shortauthorfullhashraw}{48d6a10f93b6c188784d6a57d655c33d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{Santander}
+      \field{note}{Atualizado em Fri Feb 16 20:26:43 GMT-03:00 2024}
+      \field{title}{{O que é o mercado de capitais?}}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.santander.com.br/blog/o-que-e-mercado-de-capitais
+      \endverb
+      \verb{url}
+      \verb https://www.santander.com.br/blog/o-que-e-mercado-de-capitais
+      \endverb
+      \keyw{investimentos}
+    \endentry
+    \entry{deSouzaFigueiredo:2021:mercado}{inproceedings}{}{}
+      \name{author}{4}{ul=1}{%
+        {{hash=f8df953e2f6ab6cfa1f3691c8905fea2}{%
+           family={Figueiredo},
+           familyi={F\bibinitperiod},
+           given={Celeste\bibnamedelimb Aparecida\bibnamedelimb de\bibnamedelima Souza},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4320dc8d7a0592790c5a37bfa74494e4}{%
+           family={Novaes},
+           familyi={N\bibinitperiod},
+           given={Letícia\bibnamedelima Cavalcanti},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=af266016548e542e1af74a87d91b40f4}{%
+           family={Tiossi},
+           familyi={T\bibinitperiod},
+           given={Fabiano\bibnamedelima Martin},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7539a20057b036e55fda2234fb1e9551}{%
+           family={Ternero},
+           familyi={T\bibinitperiod},
+           given={Ederson\bibnamedelima Mela},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Federal do Mato Grosso do Sul (UFMS)}%
+      }
+      \strng{namehash}{f011c2e7ccf0dc5056f801327e1226e3}
+      \strng{fullhash}{5bdedd3172a173fbda212d31c5e398c8}
+      \strng{fullhashraw}{5bdedd3172a173fbda212d31c5e398c8}
+      \strng{bibnamehash}{f011c2e7ccf0dc5056f801327e1226e3}
+      \strng{authorbibnamehash}{f011c2e7ccf0dc5056f801327e1226e3}
+      \strng{authornamehash}{f011c2e7ccf0dc5056f801327e1226e3}
+      \strng{authorfullhash}{5bdedd3172a173fbda212d31c5e398c8}
+      \strng{authorfullhashraw}{5bdedd3172a173fbda212d31c5e398c8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Anais do V Encontro Internacional de Gestão, Desenvolvimento e Inovação (EIGEDIN)}
+      \field{note}{Estratégia e Negócios}
+      \field{subtitle}{Possibilidades para investir no setor}
+      \field{title}{O mercado acionário brasileiro}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://periodicos.ufms.br/index.php/EIGEDIN/article/view/13996
+      \endverb
+      \verb{url}
+      \verb https://periodicos.ufms.br/index.php/EIGEDIN/article/view/13996
+      \endverb
+      \keyw{Mercado acionário; Ações; Investimentos.}
+    \endentry
+    \entry{figueiredo:2023:capacidade}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=aac093cc0a0c653d1195cd25dbb04717}{%
+           family={Figueiredo},
+           familyi={F\bibinitperiod},
+           given={Paulo\bibnamedelima Negreiros},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editora FGV}%
+      }
+      \strng{namehash}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{fullhash}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{fullhashraw}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{bibnamehash}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{authorbibnamehash}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{authornamehash}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{authorfullhash}{aac093cc0a0c653d1195cd25dbb04717}
+      \strng{authorfullhashraw}{aac093cc0a0c653d1195cd25dbb04717}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Capacidade tecnológica e inovação: desafios para a transição industrial e econômica do Brasil}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&authuser=1&q=Capacidade+tecnol%C3%B3gica+e+inova%C3%A7%C3%A3o%3A+desafios+para+a+transi%C3%A7%C3%A3o+industrial+e+econ%C3%B4mica+do+Brasil.&btnG=
+      \endverb
+      \verb{url}
+      \verb https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&authuser=1&q=Capacidade+tecnol%C3%B3gica+e+inova%C3%A7%C3%A3o%3A+desafios+para+a+transi%C3%A7%C3%A3o+industrial+e+econ%C3%B4mica+do+Brasil.&btnG=
+      \endverb
+    \endentry
+    \entry{fontinele:2025:projetoGitHub}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1f886ead95402ce3e27e15be22ae7b5e}{%
+           family={Fontinele},
+           familyi={F\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{fullhash}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{fullhashraw}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{bibnamehash}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{authorbibnamehash}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{authornamehash}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{authorfullhash}{1f886ead95402ce3e27e15be22ae7b5e}
+      \strng{authorfullhashraw}{1f886ead95402ce3e27e15be22ae7b5e}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{GitHub}
+      \field{title}{Análise de Dados - Balanços de Empresas CVM Dados Públicos}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://github.com/Alfredo-Fontinele/Analise_Dados_CVM
+      \endverb
+      \verb{url}
+      \verb https://github.com/Alfredo-Fontinele/Analise_Dados_CVM
+      \endverb
+    \endentry
+    \entry{freitas:2020:analise}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ce4f0a15d3098c1d3a3d1239b8b025b8}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Lucas\bibnamedelimb Catunda\bibnamedelima de},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{fullhash}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{fullhashraw}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{bibnamehash}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{authorbibnamehash}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{authornamehash}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{authorfullhash}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \strng{authorfullhashraw}{ce4f0a15d3098c1d3a3d1239b8b025b8}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Uma análise fundamentalista do setor bancário: um estudo de caso com uma seleção de indicadores}
+      \field{year}{2020}
+    \endentry
+    \entry{fgv:2024:transformacao}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=90cab9a674d7ff763032b9de00da8e56}{%
+           family={{Fundação Getulio Vargas (FGV)}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=ae9ff8f1511d3fd5f1d0b53400008d8c}{%
+           family={FGV},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rede de Pesquisa FGV}%
+      }
+      \strng{namehash}{ae9ff8f1511d3fd5f1d0b53400008d8c}
+      \strng{fullhash}{90cab9a674d7ff763032b9de00da8e56}
+      \strng{fullhashraw}{90cab9a674d7ff763032b9de00da8e56}
+      \strng{bibnamehash}{ae9ff8f1511d3fd5f1d0b53400008d8c}
+      \strng{authorbibnamehash}{90cab9a674d7ff763032b9de00da8e56}
+      \strng{authornamehash}{90cab9a674d7ff763032b9de00da8e56}
+      \strng{authorfullhash}{90cab9a674d7ff763032b9de00da8e56}
+      \strng{authorfullhashraw}{90cab9a674d7ff763032b9de00da8e56}
+      \strng{shortauthorbibnamehash}{ae9ff8f1511d3fd5f1d0b53400008d8c}
+      \strng{shortauthornamehash}{ae9ff8f1511d3fd5f1d0b53400008d8c}
+      \strng{shortauthorfullhash}{ae9ff8f1511d3fd5f1d0b53400008d8c}
+      \strng{shortauthorfullhashraw}{ae9ff8f1511d3fd5f1d0b53400008d8c}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{FGV}
+      \field{title}{{Pesquisa da FGV aponta caminhos para transformação econômica do Brasil por meio da inovação}}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rededepesquisa.fgv.br/noticia/pesquisa-da-fgv-aponta-caminhos-para-transformacao-economica-do-brasil-por-meio-da
+      \endverb
+      \verb{url}
+      \verb https://rededepesquisa.fgv.br/noticia/pesquisa-da-fgv-aponta-caminhos-para-transformacao-economica-do-brasil-por-meio-da
+      \endverb
+    \endentry
+    \entry{gerhardt:2009:metodos}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=c7a7d89663a63a20fd01fb7d9800495b}{%
+           family={Gerhardt},
+           familyi={G\bibinitperiod},
+           given={Tatiana\bibnamedelima Engel},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=fbde1065e15ff82759eda8e8260acc11}{%
+           family={Silveira},
+           familyi={S\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto Alegre}%
+      }
+      \list{publisher}{1}{%
+        {Editora da UFRGS}%
+      }
+      \strng{namehash}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{fullhash}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{fullhashraw}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{bibnamehash}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{authorbibnamehash}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{authornamehash}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{authorfullhash}{85019dd7ef910dd8da37f0e810a9c175}
+      \strng{authorfullhashraw}{85019dd7ef910dd8da37f0e810a9c175}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Coordenado pela Universidade Aberta do Brasil – UAB/UFRGS e pelo Curso de Graduação Tecnológica – Planejamento e Gestão para o Desenvolvimento Rural da SEAD/UFRGS}
+      \field{title}{Métodos de pesquisa}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ufrgs.br/cursopgdr/downloadsSerie/derad005.pdf
+      \endverb
+    \endentry
+    \entry{gois:2019:efeito}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=dbeb510d7794d579df4151a352e45e03}{%
+           family={Góis},
+           familyi={G\bibinitperiod},
+           given={Alan\bibnamedelima Diógenes},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c7d90fb76f1a7eaea3be031f4c7e1590}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Sandro\bibnamedelima Vieira},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Revista de Educação e Pesquisa em Contabilidade (REPeC)}%
+      }
+      \strng{namehash}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{fullhash}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{fullhashraw}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{bibnamehash}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{authorbibnamehash}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{authornamehash}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{authorfullhash}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \strng{authorfullhashraw}{8fb5f2eb762e3cf9b48d82ce8b82b1ed}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2}
+      \field{title}{O efeito da reputação corporativa segundo a transparência contábil no gerenciamento de resultados de empresas listadas na B3}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17524/repec.v13i2.2229
+      \endverb
+      \verb{urlraw}
+      \verb https://www.repec.org.br/repec/article/view/2229
+      \endverb
+      \verb{url}
+      \verb https://www.repec.org.br/repec/article/view/2229
+      \endverb
+    \endentry
+    \entry{gomes:2007:bolsa}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7224c4289f66e9c743c872c3216226cd}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Fátima\bibnamedelima Rocha},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7224c4289f66e9c743c872c3216226cd}
+      \strng{fullhash}{7224c4289f66e9c743c872c3216226cd}
+      \strng{fullhashraw}{7224c4289f66e9c743c872c3216226cd}
+      \strng{bibnamehash}{7224c4289f66e9c743c872c3216226cd}
+      \strng{authorbibnamehash}{7224c4289f66e9c743c872c3216226cd}
+      \strng{authornamehash}{7224c4289f66e9c743c872c3216226cd}
+      \strng{authorfullhash}{7224c4289f66e9c743c872c3216226cd}
+      \strng{authorfullhashraw}{7224c4289f66e9c743c872c3216226cd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Perspectivas em Ciência da Informação}
+      \field{number}{2}
+      \field{title}{A Bolsa de Valores brasileira como fonte de informações financeiras}
+      \field{volume}{2}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://periodicos.ufmg.br/index.php/pci/article/view/23238
+      \endverb
+      \verb{url}
+      \verb https://periodicos.ufmg.br/index.php/pci/article/view/23238
+      \endverb
+    \endentry
+    \entry{halevy:2006:data}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=98f80328981dd49e5e497e85e8f6424c}{%
+           family={Halevy},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3ef139cfd819ad7d3af54f3d2e9507b9}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{fullhash}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{fullhashraw}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{bibnamehash}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{authorbibnamehash}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{authornamehash}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{authorfullhash}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \strng{authorfullhashraw}{9b278169ec52b9ab8c06f2d9c4c4c0b5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Intelligent Systems}
+      \field{number}{2}
+      \field{title}{The Unreasonable Effectiveness of Data}
+      \field{volume}{21}
+      \field{year}{2006}
+      \field{pages}{8\bibrangedash 12}
+      \range{pages}{5}
+    \endentry
+    \entry{hammarberg:2014:kanban}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=2dc44af7e799f723e984c379a7724d36}{%
+           family={Hammarberg},
+           familyi={H\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7c360bad5b9d71f4472bd9c2f0c96007}{%
+           family={Sunden},
+           familyi={S\bibinitperiod},
+           given={Joakim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Manning Publications Co.}%
+      }
+      \strng{namehash}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{fullhash}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{fullhashraw}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{bibnamehash}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{authorbibnamehash}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{authornamehash}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{authorfullhash}{c1561b1fc9a630b63b7ca58d28035351}
+      \strng{authorfullhashraw}{c1561b1fc9a630b63b7ca58d28035351}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kanban in action}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://thuvienso.hoasen.edu.vn/handle/123456789/9448
+      \endverb
+      \verb{url}
+      \verb https://thuvienso.hoasen.edu.vn/handle/123456789/9448
+      \endverb
+    \endentry
+    \entry{anderson:2010:kanban}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c551d1461bab8cc3190f8bfd964bda5e}{%
+           family={Kanban},
+           familyi={K\bibinitperiod},
+           given={Anderson\bibnamedelimb J\bibnamedelima David},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blue Hole Press.}%
+      }
+      \strng{namehash}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{fullhash}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{fullhashraw}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{bibnamehash}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{authorbibnamehash}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{authornamehash}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{authorfullhash}{c551d1461bab8cc3190f8bfd964bda5e}
+      \strng{authorfullhashraw}{c551d1461bab8cc3190f8bfd964bda5e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Successful Evolutionary Change for Your Technology Business}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://personalpages.bradley.edu/~young/CS690S117old/Kanban.pdf
+      \endverb
+      \verb{url}
+      \verb https://personalpages.bradley.edu/~young/CS690S117old/Kanban.pdf
+      \endverb
+    \endentry
+    \entry{kearney:2014:textual}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=99a5e9bc5d397f326e54dc87346372a1}{%
+           family={Kearney},
+           familyi={K\bibinitperiod},
+           given={Colm},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f56045cb3b27465cc474c956947be650}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d24c650b0942d224906b5a891374021b}
+      \strng{fullhash}{d24c650b0942d224906b5a891374021b}
+      \strng{fullhashraw}{d24c650b0942d224906b5a891374021b}
+      \strng{bibnamehash}{d24c650b0942d224906b5a891374021b}
+      \strng{authorbibnamehash}{d24c650b0942d224906b5a891374021b}
+      \strng{authornamehash}{d24c650b0942d224906b5a891374021b}
+      \strng{authorfullhash}{d24c650b0942d224906b5a891374021b}
+      \strng{authorfullhashraw}{d24c650b0942d224906b5a891374021b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Review of Financial Analysis}
+      \field{title}{Textual sentiment in finance: A survey of methods and models}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{171\bibrangedash 185}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1057521914000295
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1057521914000295
+      \endverb
+    \endentry
+    \entry{kothari:2001:capital}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f9e52c7b204068e639aa54c82baa805}{%
+           family={Kothari},
+           familyi={K\bibinitperiod},
+           given={Sri\bibnamedelima Prakash},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{fullhash}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{fullhashraw}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{bibnamehash}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{authorbibnamehash}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{authornamehash}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{authorfullhash}{3f9e52c7b204068e639aa54c82baa805}
+      \strng{authorfullhashraw}{3f9e52c7b204068e639aa54c82baa805}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of accounting and economics}
+      \field{number}{1-3}
+      \field{title}{Capital markets research in accounting}
+      \field{volume}{31}
+      \field{year}{2001}
+      \field{pages}{105\bibrangedash 231}
+      \range{pages}{127}
+    \endentry
+    \entry{liaw:2011:business}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=61ed451ccd7e2ce753fdabc277b9723e}{%
+           family={Liaw},
+           familyi={L\bibinitperiod},
+           given={K\bibnamedelima Thomas},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{fullhash}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{fullhashraw}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{bibnamehash}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{authorbibnamehash}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{authornamehash}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{authorfullhash}{61ed451ccd7e2ce753fdabc277b9723e}
+      \strng{authorfullhashraw}{61ed451ccd7e2ce753fdabc277b9723e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The business of investment banking: A comprehensive overview}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=4w3oVc4ZCMsC&oi=fnd&pg=PA1&dq=%22investment%22+AND+%22analysis%22+AND+%22comprehensive%22+AND+%22overview%22&ots=pNfZnh8Ige&sig=HbbiBmApVV9IgjGlpPIGcMfP0Lw
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=4w3oVc4ZCMsC&oi=fnd&pg=PA1&dq=%22investment%22+AND+%22analysis%22+AND+%22comprehensive%22+AND+%22overview%22&ots=pNfZnh8Ige&sig=HbbiBmApVV9IgjGlpPIGcMfP0Lw
+      \endverb
+    \endentry
+    \entry{lindman:2020:integration}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0f31e657a9d319042a91e6a18beca50b}{%
+           family={lindman},
+           familyi={l\bibinitperiod},
+           prefix={sebastian},
+           prefixi={s\bibinitperiod}}}%
+        {{hash=84a3836d36e9c1f82a2d08b6bbdfcace}{%
+           family={tuvhag},
+           familyi={t\bibinitperiod},
+           prefix={tom},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=fc1e271c59382dbf40dd247c1d3ff65f}{%
+           family={jayasekera},
+           familyi={j\bibinitperiod},
+           prefix={ranadeva},
+           prefixi={r\bibinitperiod}}}%
+        {{hash=a5c28858ba238fb8ba5a6a472f83c35f}{%
+           family={uddin},
+           familyi={u\bibinitperiod},
+           prefix={gazi\bibnamedelima salah},
+           prefixi={g\bibinitperiod\bibinitdelim s\bibinitperiod}}}%
+        {{hash=d6835438be949b9a6020182a8a823ab1}{%
+           family={troster},
+           familyi={t\bibinitperiod},
+           prefix={victor},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {elsevier}%
+      }
+      \strng{namehash}{0916191d04a6af1bb48e66ec5f4bd66e}
+      \strng{fullhash}{49fc4bafe08c8bfccbf1efdc6da110cd}
+      \strng{fullhashraw}{49fc4bafe08c8bfccbf1efdc6da110cd}
+      \strng{bibnamehash}{0916191d04a6af1bb48e66ec5f4bd66e}
+      \strng{authorbibnamehash}{0916191d04a6af1bb48e66ec5f4bd66e}
+      \strng{authornamehash}{0916191d04a6af1bb48e66ec5f4bd66e}
+      \strng{authorfullhash}{49fc4bafe08c8bfccbf1efdc6da110cd}
+      \strng{authorfullhashraw}{49fc4bafe08c8bfccbf1efdc6da110cd}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{journal of empirical finance}
+      \field{title}{{market impact on financial market integration: cross-quantilogram analysis of the global impact of the euro}}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{56}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{42\bibrangedash 73}
+      \range{pages}{32}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jempfin.2019.10.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S0927539819300866
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S0927539819300866
+      \endverb
+    \endentry
+    \entry{louredo:2025:projetoGitHub}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=32b04ca39ace74c9e3ccf01e14ab1a23}{%
+           family={Louredo},
+           familyi={L\bibinitperiod},
+           given={Graciliano},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{fullhash}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{fullhashraw}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{bibnamehash}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{authorbibnamehash}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{authornamehash}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{authorfullhash}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \strng{authorfullhashraw}{32b04ca39ace74c9e3ccf01e14ab1a23}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{GitHub}
+      \field{title}{Códigos para ETL, análise estatística e visualização de dados da CVM}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://github.com/GrlouX/AnaDadosFRECIAberta
+      \endverb
+      \verb{url}
+      \verb https://github.com/GrlouX/AnaDadosFRECIAberta
+      \endverb
+    \endentry
+    \entry{mathew:2024:overview}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fa30e57061c2bb870dab0126d762f765}{%
+           family={Mathew},
+           familyi={M\bibinitperiod},
+           given={Sibi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Preprints}%
+      }
+      \strng{namehash}{fa30e57061c2bb870dab0126d762f765}
+      \strng{fullhash}{fa30e57061c2bb870dab0126d762f765}
+      \strng{fullhashraw}{fa30e57061c2bb870dab0126d762f765}
+      \strng{bibnamehash}{fa30e57061c2bb870dab0126d762f765}
+      \strng{authorbibnamehash}{fa30e57061c2bb870dab0126d762f765}
+      \strng{authornamehash}{fa30e57061c2bb870dab0126d762f765}
+      \strng{authorfullhash}{fa30e57061c2bb870dab0126d762f765}
+      \strng{authorfullhashraw}{fa30e57061c2bb870dab0126d762f765}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Overview on Capital Investment}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.preprints.org/manuscript/202404.0987
+      \endverb
+      \verb{url}
+      \verb https://www.preprints.org/manuscript/202404.0987
+      \endverb
+    \endentry
+    \entry{minas:2025:projetoGitHub}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a32ff03530cd355edb4502c7bb92ddbb}{%
+           family={Minas},
+           familyi={M\bibinitperiod},
+           given={Thaís},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{fullhash}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{fullhashraw}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{bibnamehash}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{authorbibnamehash}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{authornamehash}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{authorfullhash}{a32ff03530cd355edb4502c7bb92ddbb}
+      \strng{authorfullhashraw}{a32ff03530cd355edb4502c7bb92ddbb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{GitHub}
+      \field{title}{Balanco\_Empresas\_Dados\_CVM - Análise de balanços a partir dos dados da CVM}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://github.com/thaisminas/Balanco_Empresas_Dados_CVM
+      \endverb
+      \verb{url}
+      \verb https://github.com/thaisminas/Balanco_Empresas_Dados_CVM
+      \endverb
+    \endentry
+    \entry{montoia:2021:automatizaccao}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d5f8370dd0f450b32cda12479b65d4dc}{%
+           family={Montoia},
+           familyi={M\bibinitperiod},
+           given={Guilherme\bibnamedelima Rocha},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Federal de Uberlândia}%
+      }
+      \strng{namehash}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{fullhash}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{fullhashraw}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{bibnamehash}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{authorbibnamehash}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{authornamehash}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{authorfullhash}{d5f8370dd0f450b32cda12479b65d4dc}
+      \strng{authorfullhashraw}{d5f8370dd0f450b32cda12479b65d4dc}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatização da análise fundamentalista do mercado de ações brasileiro}
+      \field{year}{2021}
+    \endentry
+    \entry{nhimi:2016:desenvolvimentosoftware}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2012a0c3201751edc36e177e7343b873}{%
+           family={NHIMI},
+           familyi={N\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2012a0c3201751edc36e177e7343b873}
+      \strng{fullhash}{2012a0c3201751edc36e177e7343b873}
+      \strng{fullhashraw}{2012a0c3201751edc36e177e7343b873}
+      \strng{bibnamehash}{2012a0c3201751edc36e177e7343b873}
+      \strng{authorbibnamehash}{2012a0c3201751edc36e177e7343b873}
+      \strng{authornamehash}{2012a0c3201751edc36e177e7343b873}
+      \strng{authorfullhash}{2012a0c3201751edc36e177e7343b873}
+      \strng{authorfullhashraw}{2012a0c3201751edc36e177e7343b873}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Instituto de Gestão em Tecnologia da Informação}
+      \field{title}{Princípios e Práticas em Arquitetura de Software}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.machado.mg.gov.br/files/concursos/1cf11cf161fe4eb688dfeec880d6b4d9.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.machado.mg.gov.br/files/concursos/1cf11cf161fe4eb688dfeec880d6b4d9.pdf
+      \endverb
+    \endentry
+    \entry{omane:2019:time}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b29d73c50701690c4ee8f6a700ca950e}{%
+           family={Omane-Adjepong},
+           familyi={O\bibinithyphendelim A\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e9771cc5ca58e2b48135a0c1781d2b92}{%
+           family={Ababio},
+           familyi={A\bibinitperiod},
+           given={Kofi\bibnamedelima Agyarko},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0ccd3a54c1d88f27abc4e91555bdd557}{%
+           family={Alagidede},
+           familyi={A\bibinitperiod},
+           given={Imhotep\bibnamedelima Paul},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{fullhash}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{fullhashraw}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{bibnamehash}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{authorbibnamehash}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{authornamehash}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{authorfullhash}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \strng{authorfullhashraw}{20197799955f6f8b2a0d60e6c92cf9e3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in International Business and Finance}
+      \field{title}{Time-frequency analysis of behaviourally classified financial asset markets}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{50}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{54\bibrangedash 69}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ribaf.2019.04.012
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ribaf.2019.04.012
+      \endverb
+    \endentry
+    \entry{paiva:2025:projetoGitHub}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c01ef8b40b6f42611a37794e9f592314}{%
+           family={Paiva},
+           familyi={P\bibinitperiod},
+           given={João\bibnamedelimb Pedro\bibnamedelima Resende},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{fullhash}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{fullhashraw}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{bibnamehash}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{authorbibnamehash}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{authornamehash}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{authorfullhash}{c01ef8b40b6f42611a37794e9f592314}
+      \strng{authorfullhashraw}{c01ef8b40b6f42611a37794e9f592314}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{GitHub}
+      \field{title}{DadosCVM - Coleta e processamento de dados da CVM}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://github.com/joaopedrordepaiva/DadosCVM
+      \endverb
+      \verb{url}
+      \verb https://github.com/joaopedrordepaiva/DadosCVM
+      \endverb
+    \endentry
+    \entry{perlin:2021:analise}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=74a1f55eccf55a76bd68a3a5b1dec111}{%
+           family={Perlin},
+           familyi={P\bibinitperiod},
+           given={Marcelo\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Porto Alegre}%
+      }
+      \strng{namehash}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{fullhash}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{fullhashraw}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{bibnamehash}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{authorbibnamehash}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{authornamehash}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{authorfullhash}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \strng{authorfullhashraw}{74a1f55eccf55a76bd68a3a5b1dec111}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Análise de Dados Financeiros e Econômicos com o R--versão online}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://msperlin.com/adfer/adfeR_pt_ed03-ONLINE.pdf
+      \endverb
+      \verb{url}
+      \verb https://msperlin.com/adfer/adfeR_pt_ed03-ONLINE.pdf
+      \endverb
+    \endentry
+    \entry{prikladnicki:2014:desenvolvimentosoftware}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=bdaaed9a3cc66b81c3a29c6497bac264}{%
+           family={Prikladnicki},
+           familyi={P\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2ceaab8acf19a0e5fd343581a1ac4cc1}{%
+           family={Willi},
+           familyi={W\bibinitperiod},
+           given={Renato},
+           giveni={R\bibinitperiod}}}%
+        {{hash=27bbd07f19ee6097fa1c0e91b4ac8d32}{%
+           family={Milani},
+           familyi={M\bibinitperiod},
+           given={Fabiano},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bookman Editora}%
+      }
+      \strng{namehash}{28747d29a057141accb48397d59b06c7}
+      \strng{fullhash}{28747d29a057141accb48397d59b06c7}
+      \strng{fullhashraw}{28747d29a057141accb48397d59b06c7}
+      \strng{bibnamehash}{28747d29a057141accb48397d59b06c7}
+      \strng{authorbibnamehash}{28747d29a057141accb48397d59b06c7}
+      \strng{authornamehash}{28747d29a057141accb48397d59b06c7}
+      \strng{authorfullhash}{28747d29a057141accb48397d59b06c7}
+      \strng{authorfullhashraw}{28747d29a057141accb48397d59b06c7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Métodos ágeis para desenvolvimento de software}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=8rQABAAAQBAJ&oi=fnd&pg=PR1&dq=%22desenvolvimento%22+AND+%22software%22+AND+%22princ%C3%ADpios%22+AND+%22pr%C3%A1ticas%22&ots=I1qd0qaZI9&sig=xzzbEM0afaCGkpKYFULQah8YeUc
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=8rQABAAAQBAJ&oi=fnd&pg=PR1&dq=%22desenvolvimento%22+AND+%22software%22+AND+%22princ%C3%ADpios%22+AND+%22pr%C3%A1ticas%22&ots=I1qd0qaZI9&sig=xzzbEM0afaCGkpKYFULQah8YeUc
+      \endverb
+    \endentry
+    \entry{reis:2020:analise}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=4215bd5b05e1c4aa1928541525fb8384}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Lucas\bibnamedelimb Vinicius\bibnamedelima Borges},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Federal de Uberlândia}%
+      }
+      \strng{namehash}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{fullhash}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{fullhashraw}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{bibnamehash}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{authorbibnamehash}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{authornamehash}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{authorfullhash}{25b54b9a3382679a959f9dc5ee041b7d}
+      \strng{authorfullhashraw}{25b54b9a3382679a959f9dc5ee041b7d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Análise fundamentalista aplicada as ações negociadas na bolsa de valores brasileira}
+      \field{year}{2020}
+    \endentry
+    \entry{reis:2021:negociacao}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=83f05c3ef07324f1ea3e5e5c55e1636a}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=fc1f308e163b7853a338096b66b4ffcd}{%
+           family={Suno},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Grupo Suno}%
+      }
+      \strng{namehash}{fc1f308e163b7853a338096b66b4ffcd}
+      \strng{fullhash}{83f05c3ef07324f1ea3e5e5c55e1636a}
+      \strng{fullhashraw}{83f05c3ef07324f1ea3e5e5c55e1636a}
+      \strng{bibnamehash}{fc1f308e163b7853a338096b66b4ffcd}
+      \strng{authorbibnamehash}{83f05c3ef07324f1ea3e5e5c55e1636a}
+      \strng{authornamehash}{83f05c3ef07324f1ea3e5e5c55e1636a}
+      \strng{authorfullhash}{83f05c3ef07324f1ea3e5e5c55e1636a}
+      \strng{authorfullhashraw}{83f05c3ef07324f1ea3e5e5c55e1636a}
+      \strng{shortauthorbibnamehash}{fc1f308e163b7853a338096b66b4ffcd}
+      \strng{shortauthornamehash}{fc1f308e163b7853a338096b66b4ffcd}
+      \strng{shortauthorfullhash}{fc1f308e163b7853a338096b66b4ffcd}
+      \strng{shortauthorfullhashraw}{fc1f308e163b7853a338096b66b4ffcd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{nameaddon}{Suno}
+      \field{subtitle}{Tudo sobre o Mercado Financeiro: o que é e como ele funciona?}
+      \field{title}{Negociação de ações nas bolsas de valores}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.suno.com.br/guias/mercado-financeiro/
+      \endverb
+      \verb{url}
+      \verb https://www.suno.com.br/guias/mercado-financeiro/
+      \endverb
+      \keyw{investidor,iniciante}
+    \endentry
+    \entry{roberto:2023:papel}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=66b9f25bc0496f6b17fc3e8ad59c5073}{%
+           family={Roberto},
+           familyi={R\bibinitperiod},
+           given={Arthur\bibnamedelima Mendes},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Mariana}%
+      }
+      \list{publisher}{1}{%
+        {Instituto de Ciências Sociais Aplicadas, Universidade Federal de Ouro Preto}%
+      }
+      \strng{namehash}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{fullhash}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{fullhashraw}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{bibnamehash}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{authorbibnamehash}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{authornamehash}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{authorfullhash}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \strng{authorfullhashraw}{66b9f25bc0496f6b17fc3e8ad59c5073}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Papel da informação contábil auditada no processo de tomada de decisão: uma pesquisa realizada com futuros gestores}
+      \field{type}{Monografia (Graduação em Administração)}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.monografias.ufop.br/handle/35400000/6082
+      \endverb
+      \verb{url}
+      \verb http://www.monografias.ufop.br/handle/35400000/6082
+      \endverb
+    \endentry
+    \entry{sahu:2023:overview}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8aa59216b1ef6c552f88ddef0b95329b}{%
+           family={Sahu},
+           familyi={S\bibinitperiod},
+           given={Santosh\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=dd808e4b4888fbf65cc185434f9e799d}{%
+           family={Mokhade},
+           familyi={M\bibinitperiod},
+           given={Anil},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a25fb0eb57a93176e1c70113071946ea}{%
+           family={Bokde},
+           familyi={B\bibinitperiod},
+           given={Neeraj\bibnamedelima Dhanraj},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{fullhash}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{fullhashraw}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{bibnamehash}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{authorbibnamehash}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{authornamehash}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{authorfullhash}{9b299612cfb7f8a09fa44a053c644e73}
+      \strng{authorfullhashraw}{9b299612cfb7f8a09fa44a053c644e73}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{3}
+      \field{title}{An overview of machine learning, deep learning, and reinforcement learning-based techniques in quantitative finance: recent progress and challenges}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1956}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/13/3/1956
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/13/3/1956
+      \endverb
+    \endentry
+    \entry{scannapieco:2006:data}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=67cfddf3fcd86a078af24a252f642928}{%
+           family={Scannapieco},
+           familyi={S\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{67cfddf3fcd86a078af24a252f642928}
+      \strng{fullhash}{67cfddf3fcd86a078af24a252f642928}
+      \strng{fullhashraw}{67cfddf3fcd86a078af24a252f642928}
+      \strng{bibnamehash}{67cfddf3fcd86a078af24a252f642928}
+      \strng{authorbibnamehash}{67cfddf3fcd86a078af24a252f642928}
+      \strng{authornamehash}{67cfddf3fcd86a078af24a252f642928}
+      \strng{authorfullhash}{67cfddf3fcd86a078af24a252f642928}
+      \strng{authorfullhashraw}{67cfddf3fcd86a078af24a252f642928}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data quality: concepts, methodologies and techniques. Data-centric systems and applications}
+      \field{year}{2006}
+    \endentry
+    \entry{schwaber:2004:agile}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1a3a465e9fec2dd65802609a5690884e}{%
+           family={schwaber},
+           familyi={s\bibinitperiod},
+           prefix={ken},
+           prefixi={k\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft Press}%
+      }
+      \strng{namehash}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{fullhash}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{fullhashraw}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{bibnamehash}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{authorbibnamehash}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{authornamehash}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{authorfullhash}{1a3a465e9fec2dd65802609a5690884e}
+      \strng{authorfullhashraw}{1a3a465e9fec2dd65802609a5690884e}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agile Project Management with Scrum}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=6pZCAwAAQBAJ&oi=fnd&pg=PT7&dq=Agile+Project+Management+with+Scrum&ots=kdqNUVaujV&sig=3sxF6tAAVnrNJgtQ1wGo-cJQ-kM
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=6pZCAwAAQBAJ&oi=fnd&pg=PT7&dq=Agile+Project+Management+with+Scrum&ots=kdqNUVaujV&sig=3sxF6tAAVnrNJgtQ1wGo-cJQ-kM
+      \endverb
+    \endentry
+    \entry{sutherland:2014:scrum}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=6e3f26f6f816a26c6ab36bc7a899bcde}{%
+           family={Sutherland},
+           familyi={S\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=703891fd6809c3fcc1590a32465cc001}{%
+           family={Sutherland},
+           familyi={S\bibinitperiod},
+           given={JJ},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Crown Currency}%
+      }
+      \strng{namehash}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{fullhash}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{fullhashraw}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{bibnamehash}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{authorbibnamehash}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{authornamehash}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{authorfullhash}{88326d6ce0b4b966c134cea4e91a781f}
+      \strng{authorfullhashraw}{88326d6ce0b4b966c134cea4e91a781f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scrum: the art of doing twice the work in half the time}
+      \field{urlday}{20}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://elib.vku.udn.vn/bitstream/123456789/3370/1/2014.%20Scrum-The%20Art%20of%20Doing%20Twice%20the%20work%20in%20Half%20the%20time.pdf
+      \endverb
+      \verb{url}
+      \verb http://elib.vku.udn.vn/bitstream/123456789/3370/1/2014.%20Scrum-The%20Art%20of%20Doing%20Twice%20the%20work%20in%20Half%20the%20time.pdf
+      \endverb
+    \endentry
+    \entry{teixeira:2019:mercado}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f387c30df98e96e1b96575aedb73ee37}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Julio\bibnamedelima Cesar},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {FIA Business School}%
+      }
+      \strng{namehash}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{fullhash}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{fullhashraw}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{bibnamehash}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{authorbibnamehash}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{authornamehash}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{authorfullhash}{f387c30df98e96e1b96575aedb73ee37}
+      \strng{authorfullhashraw}{f387c30df98e96e1b96575aedb73ee37}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mercado de Capitais: O que é e como funciona?}
+      \field{urlday}{23}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fia.com.br/blog/mercado-de-capitais/
+      \endverb
+      \verb{url}
+      \verb https://fia.com.br/blog/mercado-de-capitais/
+      \endverb
+    \endentry
+    \entry{cvm:2021:resolucao44}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bb53209639dd2e71050da1442ec5cd87}{%
+           family={Valores\bibnamedelimb Mobiliários\bibnamedelima (CVM)},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Comissão},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=ca5a217db481db5bcc9f61870f0a2da7}{%
+           family={CVM},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{fullhash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{fullhashraw}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{bibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{authorbibnamehash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{authornamehash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{authorfullhash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{authorfullhashraw}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{shortauthorbibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthornamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhashraw}{ca5a217db481db5bcc9f61870f0a2da7}
+      \field{extraname}{4}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textit{Diário Oficial da União: seção 1}, Brasília, DF, n. 161, p. 21--24}
+      \field{nameaddon}{CVM}
+      \field{note}{Dispõe sobre a divulgação de informações sobre ato ou fato relevante, a negociação de valores mobiliários na pendência de ato ou fato relevante não divulgado e a divulgação de informações sobre a negociação de valores mobiliários, e revoga as Instruções CVM nº 358/2002, nº 369/2002 e nº 449/2007.}
+      \field{title}{Resolução CVM nº 44, de 23 de agosto de 2021}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol044consolid.pdf
+      \endverb
+      \verb{url}
+      \verb https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol044consolid.pdf
+      \endverb
+    \endentry
+    \entry{cvm:2022:resolucao}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=bb53209639dd2e71050da1442ec5cd87}{%
+           family={Valores\bibnamedelimb Mobiliários\bibnamedelima (CVM)},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Comissão},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{hash=ca5a217db481db5bcc9f61870f0a2da7}{%
+           family={CVM},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{fullhash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{fullhashraw}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{bibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{authorbibnamehash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{authornamehash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{authorfullhash}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{authorfullhashraw}{bb53209639dd2e71050da1442ec5cd87}
+      \strng{shortauthorbibnamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthornamehash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhash}{ca5a217db481db5bcc9f61870f0a2da7}
+      \strng{shortauthorfullhashraw}{ca5a217db481db5bcc9f61870f0a2da7}
+      \field{extraname}{5}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\textit{Diário Oficial da União: seção 1}, Brasília, DF, n. 62, p. 38--42}
+      \field{nameaddon}{CVM}
+      \field{note}{Dispõe sobre o registro e a prestação de informações periódicas e eventuais dos emissores de valores mobiliários admitidos à negociação em mercados regulamentados de valores mobiliários.}
+      \field{title}{Resolução CVM nº 80, de 29 de março de 2022}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol080consolid.pdf
+      \endverb
+      \verb{url}
+      \verb https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol080consolid.pdf
+      \endverb
+    \endentry
+    \entry{vieira:2019:montagem}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=40fdb8305d7c746a344d24883ded5bb8}{%
+           family={Vieira},
+           familyi={V\bibinitperiod},
+           given={Rennan\bibnamedelimb Kelson\bibnamedelimb de\bibnamedelima Medeiros},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Federal da Paraíba}%
+      }
+      \strng{namehash}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{fullhash}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{fullhashraw}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{bibnamehash}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{authorbibnamehash}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{authornamehash}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{authorfullhash}{40fdb8305d7c746a344d24883ded5bb8}
+      \strng{authorfullhashraw}{40fdb8305d7c746a344d24883ded5bb8}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Montagem de carteiras de ações listadas na B3 e comparação com índices de investimentos brasileiros sob a ótica de análise fundamentalista}
+      \field{year}{2019}
+    \endentry
+    \entry{wazlawick:2009:metodo}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=89003791c69381429a136fd772d76397}{%
+           family={Wazlawick},
+           familyi={W\bibinitperiod},
+           given={Raul\bibnamedelima Sidnei},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{89003791c69381429a136fd772d76397}
+      \strng{fullhash}{89003791c69381429a136fd772d76397}
+      \strng{fullhashraw}{89003791c69381429a136fd772d76397}
+      \strng{bibnamehash}{89003791c69381429a136fd772d76397}
+      \strng{authorbibnamehash}{89003791c69381429a136fd772d76397}
+      \strng{authornamehash}{89003791c69381429a136fd772d76397}
+      \strng{authorfullhash}{89003791c69381429a136fd772d76397}
+      \strng{authorfullhashraw}{89003791c69381429a136fd772d76397}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Metodologia de Pesquisa para Ciência da Computação}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
