@@ -1,4 +1,10 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Esquema lógico do banco de dados para integração de dados da CVM.}}{24}{figure.caption.36}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Fluxograma do projeto}}{32}{figure.caption.46}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Estrutura do FCA}}{38}{figure.caption.65}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Estrutura resumida da categoria FCA}}{38}{figure.caption.65}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Estrutura dos diretórios do projeto}}{50}{figure.caption.78}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Função de coleta com verificação de resposta HTTP}}{50}{figure.caption.79}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Função de leitura e normalização de arquivos CSV}}{51}{figure.caption.80}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Função de inserção com controle transacional}}{51}{figure.caption.81}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Organização dos arquivos de \textit {log} gerados pelo sistema}}{51}{figure.caption.82}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de mensagem registrada em caso de erro}}{51}{figure.caption.83}%

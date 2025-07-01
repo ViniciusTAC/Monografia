@@ -5,7 +5,7 @@ As atividades foram organizadas em três frentes principais, que estruturam as s
 
 \section{Análise inicial dos dados da CVM} \label{sec:analise_cvm}
 
-A primeira etapa consistiu na compreensão do formato, da frequência de atualização e de outros aspectos relevantes relacionados aos dados disponibilizados pela CVM. Como o foco do trabalho são as Companhias (CIA) Abertas\footnote{\url{https://dados.cvm.gov.br}}, realizou-se uma análise do site como fonte para obtenção dessas informações. A partir disso, foram identificados os conjuntos de dados referentes às Companhias Abertas, organizados nas seguintes pastas:
+A primeira etapa consistiu na compreensão do formato, da frequência de atualização e de outros aspectos relevantes relacionados aos dados disponibilizados pela CVM com foco do trabalho são as Companhias (CIA) Abertas. A partir disso, foram identificados os conjuntos de dados referentes às Companhias Abertas, organizados nas seguintes pastas:
 
 \begin{itemize}
 	\item informação cadastral;
@@ -20,65 +20,123 @@ A primeira etapa consistiu na compreensão do formato, da frequência de atualiz
 
 As informações cadastrais compõem uma categoria distinta, classificada como cadastro, enquanto os demais arquivos são agrupados sob a categoria de documentos. Ao acessar o site de dados da CVM\footnote{\url{https://dados.cvm.gov.br/dados/}}, especificamente a seção referente às Companhias Abertas, é possível visualizar essas duas categorias de dados.
 
-Será apresentada, a seguir, a descrição de cada pasta referente ao conjunto de dados da CVM da CIA Aberta, com a finalidade de esclarecer o conteúdo e a utilidade de cada uma.
+Adicionalmente, é importante contextualizar o sistema responsável pelo envio eletrônico dos documentos à CVM. O sistema \textit{Empresas.NET} (ENET) é a plataforma oficial utilizada pelas companhias abertas para a transmissão de informações regulatórias exigidas pela autarquia. Essa ferramenta garante a padronização, segurança e rastreabilidade do envio, sendo o meio exclusivo de entrega de documentos previstas nas normas vigentes.
 
-Adicionalmente, é importante contextualizar brevemente o sistema responsável pelo envio eletrônico dos documentos à CVM. O sistema \textit{Empresas.NET} (ENET) é a plataforma oficial utilizada pelas companhias abertas para a transmissão de informações regulatórias exigidas pela autarquia. Essa ferramenta garante a padronização, segurança e rastreabilidade do envio, sendo o meio exclusivo de entrega de documentos como o formulário de referência, as demonstrações financeiras padronizadas, os informes trimestrais e demais obrigações periódicas previstas nas normas vigentes.
+Os dados disponibilizados no portal da CVM são disponibilizados em formatos estruturados em \textit{Comma-Separated Values} (CSV, em português valores separados por vírgulas), em texto simples no formato \texttt{TXT} e arquivos comprimidos no formato \texttt{ZIP}. Esses formatos visam garantir maior acessibilidade e automação no tratamento das informações. A maioria dos conjuntos de dados está organizada em arquivos anuais, separados por tipo de formulário e data de referência, o que permite consultas retroativas e reprodutibilidade dos resultados.
 
-Os dados disponibilizados no portal da CVM são oferecidos em formatos estruturados em \texttt{CSV} (Comma-Separated Values), em texto simples no formato \texttt{TXT} e arquivos comprimidos no formato \texttt{ZIP}. Esses formatos visam garantir maior acessibilidade e automação no tratamento das informações. A maioria dos conjuntos de dados está organizada em arquivos anuais, separados por tipo de formulário e data de referência, o que permite consultas retroativas e reprodutibilidade dos resultados.
+Essas pastas listadas anteriormente podem conter dados referentes à categoria principal ou subdivisões internas em (subcategorias), conforme a complexidade do conteúdo. Os metadados associados a cada categoria são apresentados de duas formas. Quando não há subcategorias, os metadados são oferecidos em arquivos de texto; caso contrário, são fornecidos em arquivos compactados que, ao serem descompactados, revelam arquivos textuais para cada subcategoria.
 
-Essas pastas listadas anteriormente podem conter dados referentes diretamente à categoria principal ou subdivisões internas em outras palavras subcategorias, conforme a complexidade do conteúdo. Os metadados associados a cada categoria são apresentados de duas formas: quando não há subcategorias, os metadados são oferecidos em arquivos de texto; caso contrário, são fornecidos em arquivos compactados que, ao serem descompactados, revelam arquivos textual para cada subcategoria.
+%Os dados propriamente ditos também são disponibilizados em arquivos compactados por ano. Após a extração, o conteúdo pode variar: em categorias sem subdivisões, o arquivo anual tende a conter um único documento estruturado; já em categorias com subcategorias, o arquivo anual inclui múltiplos arquivos estruturado, organizados conforme os diferentes tipos de informação tratados.
+%
+%Dessa forma, observa-se um padrão de organização hierárquica: pastas por categoria principal, contendo arquivos de metadados e dados, com granularidade ajustada conforme a existência de subcategorias. Essa estrutura visa facilitar o acesso modular à informação alem de um controle sobre a atualização dos dados e permitir análises específicas com base no ano.
+%
+%As legislações que fundamentam a disponibilização e a estrutura dos dados incluem, principalmente, a Resolução CVM nº 80/2022 \cite{cvm:2022:resolucao80}, que consolida as regras relativas ao registro e envio de informações pelas companhias abertas, e a Resolução CVM nº 44/2021 \cite{cvm:2021:resolucao44}, que dispõe sobre a divulgação de informações relativas a atos ou fatos relevantes, a negociação de valores mobiliários na pendência de tais informações ainda não divulgadas, bem como sobre a divulgação de operações realizadas com valores mobiliários por pessoas com acesso a informações privilegiadas. Tais normas conferem respaldo jurídico à padronização e à publicidade dos dados disponibilizados, sendo essenciais para o desenvolvimento de sistemas automatizados de análise fundamentada, como o proposto neste trabalho.
 
-Os dados propriamente ditos também são disponibilizados em arquivos compactados por ano. Após a extração, o conteúdo pode variar: em categorias sem subdivisões, o arquivo anual tende a conter um único documento estruturado; já em categorias com subcategorias, o arquivo anual inclui múltiplos arquivos estruturado, organizados conforme os diferentes tipos de informação tratados.
+Os dados propriamente ditos também são disponibilizados em arquivos compactados por ano. Após a extração, o conteúdo pode variar: em categorias sem subdivisões, o arquivo anual tende a conter um único documento estruturado; já em categorias com subcategorias, o arquivo anual inclui múltiplos arquivos estruturados, organizados conforme os diferentes tipos de informação tratados.
 
-Dessa forma, observa-se um padrão de organização hierárquica: pastas por categoria principal, contendo arquivos de metadados e dados, com granularidade ajustada conforme a existência de subcategorias. Essa estrutura visa facilitar o acesso modular à informação alem de um controle sobre a atualização dos dados e permitir análises específicas com base no ano.
+Dessa forma, observa-se um padrão de organização hierárquica: pastas por categoria principal, contendo arquivos de metadados e dados, com granularidade ajustada conforme a existência de subcategorias. Essa estrutura visa facilitar o acesso modular à informação, além de permitir maior controle sobre a atualização dos dados e a realização de análises específicas com base no ano.
 
-As legislações que fundamentam a disponibilização e a estrutura dos dados incluem, principalmente, a Resolução CVM nº 80/2022 \cite{cvm:2022:resolucao80}, que consolida as regras relativas ao registro e envio de informações pelas companhias abertas, e a Resolução CVM nº 44/2021 \cite{cvm:2021:resolucao44}, que dispõe sobre a divulgação de informações relativas a atos ou fatos relevantes, a negociação de valores mobiliários na pendência de tais informações ainda não divulgadas, bem como sobre a divulgação de operações realizadas com valores mobiliários por pessoas com acesso a informações privilegiadas. Tais normas conferem respaldo jurídico à padronização e à publicidade dos dados disponibilizados, sendo essenciais para o desenvolvimento de sistemas automatizados de análise fundamentada, como o proposto neste trabalho.
+A disponibilização e estruturação dos dados têm como base legal a Resolução CVM nº 80/2022~\cite{cvm:2022:resolucao80}, que consolida as regras relativas ao registro e envio de informações pelas companhias abertas, e a Resolução CVM nº 44/2021~\cite{cvm:2021:resolucao44}, que dispõe sobre a divulgação de informações relativas a atos ou fatos relevantes, a negociação de valores mobiliários na pendência dessas informações ainda não divulgadas, bem como sobre a divulgação de operações realizadas por pessoas com acesso a informações privilegiadas.
+
+Tais normas conferem respaldo jurídico à padronização e à publicidade dos dados disponibilizados. Além disso, tornam-se essenciais para a implementação de sistemas automatizados de análise fundamentada, como o proposto neste trabalho, uma vez que garantem consistência normativa e previsibilidade no tratamento da informação.
+
 
 %Resolução cvm:2022:resolucao
 %Resolução cvm:2021:resolucao44
 
 \subsection{Informação cadastral} 
 
-O conjunto Informação Cadastral reúne os dados cadastrais das companhias abertas disponibilizados pela CVM. Entre as informações disponibilizadas, destacam-se o número do Cadastro Nacional da Pessoa Jurídica (CNPJ), a data de registro da companhia e a situação atual desse registro. Esses dados são fundamentais para análises regulatórias, econômicas e financeiras, além de servirem como base para estudos acadêmicos e pesquisas de mercado. O dicionário de dados, disponibilizado em formato textual, contém a descrição detalhada das colunas e dos tipos de dados presentes no arquivo principal. Já os dados propriamente ditos, que contêm os registros cadastrais das companhias abertas, são apresentados em um arquivo estruturado.
+%O conjunto Informação Cadastral reúne os dados cadastrais das companhias abertas disponibilizados pela CVM. Entre as informações disponibilizadas, destacam-se o número do Cadastro Nacional da Pessoa Jurídica (CNPJ), a data de registro da companhia e a situação atual desse registro. Esses dados são fundamentais para análises regulatórias, econômicas e financeiras, além de servirem como base para estudos acadêmicos e pesquisas de mercado. O dicionário de dados, disponibilizado em formato textual, contém a descrição detalhada das colunas e dos tipos de dados presentes no arquivo principal. Já os dados propriamente ditos, que contêm os registros cadastrais das companhias abertas, são apresentados em um arquivo estruturado.
 
-Este conjunto de dados é de acesso público e está disponível na plataforma de dados abertos da CVM. A base é atualizada diariamente.
+O conjunto de informação cadastral reúne os dados cadastrais das companhias abertas disponibilizados pela CVM. Entre as informações fornecidas, destacam-se o número do Cadastro Nacional da Pessoa Jurídica (CNPJ), a data de registro da companhia e a situação atual desse registro.
 
-Para facilitar a compreensão geral da estrutura e do conteúdo disponibilizado, apresenta-se no Apêndice~\ref{ap:estrutura-informacao-cadastral} uma tabela-resumo com a visão geral dos campos e descrições desse conjunto de dados.
+Esses dados são fundamentais para análises regulatórias, econômicas e financeiras, além de servirem como base para estudos acadêmicos e pesquisas de mercado. A padronização e a disponibilidade pública dessas informações ampliam a transparência e favorecem o desenvolvimento de soluções automatizadas voltadas à análise institucional das companhias.
+
+O dicionário de dados, disponibilizado em formato textual, contém a descrição detalhada das colunas e dos tipos de dados presentes no arquivo principal. Já os dados propriamente ditos, que contêm os registros cadastrais das companhias abertas, são apresentados em um arquivo estruturado.
+
+Embora o conjunto de informações cadastrais não tenha sido utilizado diretamente nas etapas de extração, modelagem ou análise do presente trabalho, sua estrutura é apresentada a seguir com o intuito de ilustrar o escopo e a organização dos dados disponibilizados pela CVM. A Tabela~\ref{tab:exemplo_informacao_cadastral} mostra uma amostra simplificada desses registros, destacando alguns dos campos mais representativos, como a razão social, o CNPJ, a situação cadastral, o setor de atuação e o endereço eletrônico da companhia.
+
+\begin{table}[!htb]
+	\centering
+	\caption{Exemplo de registros da base Informação Cadastral}
+	\label{tab:exemplo_informacao_cadastral}
+	\scriptsize
+	\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+		\hline
+		\textbf{CNPJ\_CIA} & \textbf{DENOM\_SOCIAL} & \textbf{DT\_REG} & \textbf{SIT} & \textbf{CD\_CVM} & \textbf{SETOR\_ATIV} & \textbf{EMAIL} \\
+		\hline
+		08.773.135/0001-00 & 2W ECOBANK S.A. - EM RECUPERAÇÃO JUDICIAL & 29/10/2020 & ATIVO & 25224 & Energia Elétrica & ri@2wecobank.com.br \\
+		\hline
+		11.396.633/0001-87 & 3A COMPANHIA SECURITIZADORA & 08/03/2010 & CANCELADA & 21954 & Securitização de Recebíveis & dri@3asec.com.br \\
+		\hline
+		01.547.749/0001-16 & 521 PARTICIPAÇÕES S.A. - EM LIQUIDAÇÃO EXTRAJUDICIAL & 11/07/1997 & ATIVO & 16330 & Emp. Adm. Part. - Energia Elétrica & eximia@eximiacapital.com \\
+		\hline
+		01.851.771/0001-55 & 524 PARTICIPAÇÕES SA & 30/05/1997 & ATIVO & 16284 & Emp. Adm. Part. - Sem Setor Principal & gar@opportunity.com.br \\
+		\hline
+	\end{tabularx}
+	\legend{Fonte: Dados abertos da CVM (adaptado pelo autor, 2025).}
+\end{table}
+
+Além da amostra apresentada, com o objetivo de oferecer uma visão mais abrangente da estrutura do conjunto, apresenta-se no Apêndice~\ref{ap:estrutura-informacao-cadastral} uma tabela-resumo contendo a descrição completa dos campos disponíveis no arquivo principal. Essa estrutura complementar contribui para contextualizar o nível de detalhamento e a organização dos dados, mesmo não sendo incorporados às etapas analíticas deste trabalho.
+
 
 \subsection{Formulário cadastral}
 
-O Formulário cadastral (FCA) é um documento eletrônico cuja entrega periódica ou eventual é regulamentada pelo a CVM e suas resoluções. Este formulário deve ser enviado à CVM por meio do sistema ENET, sendo uma obrigação regulatória destinada às companhias abertas. Sua principal função é atualizar e manter organizadas as informações institucionais e operacionais dessas entidades. O conjunto de dados públicos relacionados ao FCA, disponibilizado pela CVM, apresenta-se organizado em duas categorias principais de informações: os endereços de \textit{download} dos documentos completos submetidos pelas companhias abertas e os conteúdos estruturados das seções que compõem o formulário.
+O formulário cadastral (FCA) é um documento eletrônico cuja entrega periódica ou eventual é regulamentada pelo a CVM e suas resoluções. Este formulário deve ser enviado à CVM por meio do sistema ENET, sendo uma obrigação regulatória destinada às companhias abertas. Sua principal função é atualizar e manter organizadas as informações institucionais e operacionais dessas entidades. O conjunto de dados públicos relacionados ao FCA, disponibilizado pela CVM, apresenta-se organizado em duas categorias principais de informações: os endereços de \textit{download} dos documentos completos submetidos pelas companhias abertas e os conteúdos estruturados das seções que compõem o formulário.
 
-Seguindo o padrão já apresentando de subcategorias o FCA possui a categoria refere-se ao arquivo \texttt{fca\_cia\_aberta}, que contém os links para o \textit{download} dos documentos completos entregues pelas companhias nos últimos cinco anos. A visualização desses documentos requer a utilização do ENET. A as demais categoria compreende os conteúdos integrais do formulário, apresentados abaixo em arquivos estruturados por ano, estando dentro de um arquivo compactado por ano, conforme ja relatado anteriormente: 
+Seguindo o padrão já apresentando de subcategorias o FCA possui a categoria refere-se ao arquivo \texttt{fca\_cia\_aberta}, que contém os links para o \textit{download} dos documentos completos entregues pelas companhias nos últimos cinco anos. A visualização desses documentos requer a utilização do ENET. A as demais categorias compreende os conteúdos integrais do formulário, apresentados abaixo em arquivos estruturados por ano, estando dentro de um arquivo compactado por ano, conforme ja relatado anteriormente. 
 
-\begin{figure}[!htb] \centering
-	\caption{Estrutura do FCA} \label{fig:estrutura_fca}
+A Figura~\ref{fig:estrutura_fca} ilustra de forma resumida a estrutura interna dessa categoria, destacando os arquivos que foram de fato utilizados na análise. Os demais arquivos, não essenciais para este trabalho, foram omitidos por brevidade.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Estrutura resumida da categoria FCA}
+	\label{fig:estrutura_fca}
 	\begin{varwidth}{\linewidth}
 		\dirtree{%
-			.1 /.
-			.2 fca\_cia\_aberta\_geral.
-			.2 fca\_cia\_aberta\_pais\_estrangeiro\_negociacao.
-			.2 fca\_cia\_aberta\_canal\_divulgacao.
-			.2 fca\_cia\_aberta\_endereco.
-			.2 fca\_cia\_aberta\_valor\_mobiliario.
-			.2 fca\_cia\_aberta\_auditor.
-			.2 fca\_cia\_aberta\_escriturador.
-			.2 fca\_cia\_aberta\_dri.
-			.2 fca\_cia\_aberta\_departamento\_acionistas.
+			.1 {fca\_cia\_aberta}.
+			.2 {fca\_cia\_aberta.csv} \DTcomment{links ENET}.
+			.2 {fca\_cia\_aberta\_geral.csv} \DTcomment{dados estruturados}.
+			.2 {fca\_cia\_aberta\_auditor.csv}.
+			.2 {fca\_cia\_aberta\_valor\_mobiliario.csv}.
+			.2 {[... outros arquivos estruturados omitidos]}.
 		}
 		\legend{Elaborado pelo autor, 2025.}
 	\end{varwidth}
 \end{figure}
 
-Cada um desses arquivos aborda uma seção específica do formulário, possibilitando a segmentação e a análise detalhada das informações declaradas pelas companhias abertas Uma visão geral dos arquivos estruturados do FCA, com a respectiva correspondência normativa e observações de uso, está apresentada no Apêndice~\ref{ap:estrutura-fca}. Os arquivos são atualizados semanalmente, refletindo tanto novas entregas quanto reapresentações realizadas pelas companhias reguladas. Além disso, mantém-se um histórico contínuo desde o ano de 2010, incluindo inclusive arquivos que não estão sujeitos à política de atualização vigente. O dicionário de dados correspondente é disponibilizado em formato compactado e oferece descrições detalhadas de todas as colunas e variáveis presentes nos arquivos.
+Cada um desses arquivos aborda uma seção específica do formulário, possibilitando a segmentação e a análise detalhada das informações declaradas pelas companhias abertas Uma visão geral dos arquivos estruturados do FCA, com a respectiva correspondência normativa e observações de uso, está apresentada no Apêndice~\ref{ap:estrutura-fca}. Os arquivos são atualizados semanalmente, refletindo tanto novas entregas quanto reapresentações realizadas pelas companhias reguladas. Além disso, mantém-se um histórico contínuo desde o ano de 2010, incluindo inclusive arquivos que não estão sujeitos à política de atualização vigente. O dicionário de dados correspondente é disponibilizado em formato compactado e oferece descrições de todas as colunas e variáveis presentes nos arquivos.
 
 No desenvolvimento da ferramenta proposta neste trabalho, foi utilizado exclusivamente o arquivo \texttt{fca\_cia\_aberta\_geral}, por concentrar de forma consolidada as principais informações institucionais das companhias abertas, o que dispensa a necessidade de integrar os demais arquivos individualizados.
+
+Para exemplificar a estrutura e o conteúdo desses dados, a Tabela~\ref{tab:amostra_fca} apresenta uma amostra representativa de registros extraídos da versão mais recente do conjunto. Esses dados concentram as principais informações institucionais das companhias abertas, como CNPJ, razão social, data de constituição, categoria e situação do registro na CVM, setor de atuação e endereço eletrônico. Tal amostra evidencia o caráter consolidado do arquivo, o que reforça sua escolha como fonte principal para o desenvolvimento da ferramenta proposta neste trabalho.
+
+
+\begin{table}[!htb]
+	\centering
+	\caption{Amostra de registros do arquivo \texttt{fca\_cia\_aberta\_geral}}
+	\label{tab:amostra_fca}
+	\scriptsize
+	\begin{tabularx}{\textwidth}{|l|c|c|X|X|c|c|c|X|X|}
+		\hline
+		\textbf{CNPJ} & \textbf{Ref.} & \textbf{Versão} & \textbf{Empresa} & \textbf{Nome Anterior} & \textbf{Constituição} & \textbf{Categoria} & \textbf{Situação} & \textbf{Setor} & \textbf{Website} \\
+		\hline
+		00.000.000/0001-91 & 01/01/2025 & 1 & BCO BRASIL S.A. & --- & 12/10/1808 & A & Ativo & Banco Múltiplo & www.bb.com.br \\
+		\hline
+		00.000.208/0001-00 & 01/01/2025 & 2 & BRB BANCO DE BRASÍLIA S.A. & BANCO REGIONAL DE BRASÍLIA S.A. - BRB & 10/12/1964 & A & Ativo & Banco Múltiplo & www.brb.com.br \\
+		\hline
+		00.001.180/0001-26 & 01/01/2025 & 2 & CENTRAIS ELÉT. BRAS. S.A. - ELETROBRAS & --- & 11/06/1962 & A & Ativo & Holding de Energia & www.eletrobras.com \\
+		\hline
+	\end{tabularx}
+	\legend{Fonte: Dados abertos da CVM (adaptado pelo autor, 2025).}
+\end{table}
+
 
 Para fins de análise temporal e organização, os formulários referentes aos anos de 2020 a 2025 encontram-se agrupados em arquivos anuais distintos. Este conjunto de dados integra a base denominada \textit{Documentos Periódicos e Eventuais de Regulados}. Sua manutenção ocorre de forma semanal, assegurando a atualização constante das informações disponibilizadas.
 
 \subsection{Informações periódicas e eventuais}
 
-O conjunto de dados referente às Informações Periódicas e Eventuais (IPE) reúne documentos não estruturados enviados por companhias abertas à CVM. Esses documentos, de caráter regulatório, contemplam tanto as obrigações periódicas quanto as comunicações eventuais exigidas ao longo das atividades societárias e da interlocução com o mercado. Trata-se de um acervo, que reflete a diversidade de exigências legais e normativas aplicáveis às companhias reguladas. O conteúdo do conjunto está organizado em seis grandes categorias documentais:
+O conjunto de dados referente às informações periódicas e eventuais (IPE) reúne documentos não estruturados enviados por companhias abertas à CVM. Esses documentos, de caráter regulatório, contemplam tanto as obrigações periódicas quanto as comunicações eventuais exigidas ao longo das atividades societárias e da interlocução com o mercado. Trata-se de um acervo, que reflete a diversidade de exigências legais e normativas aplicáveis às companhias reguladas. O conteúdo do conjunto está organizado em seis grandes categorias documentais:
 
 \begin{itemize}
 	\item governança e estrutura societária;
@@ -89,23 +147,57 @@ O conjunto de dados referente às Informações Periódicas e Eventuais (IPE) re
 	\item informações regulatórias específicas.
 \end{itemize}
 
-Uma visão geral dos tipos documentais abrangidos pelo conjunto IPE pode ser consultada no Apêndice~\ref{ap:ipe-visao-geral}, que apresenta uma tabela que descreve melhor essas categorias nos tipos de documentos presente no IPE.
+Uma visão geral dos tipos documentais abrangidos pelo conjunto IPE pode ser consultada no Apêndice~\ref{ap:ipe-visao-geral}.
 
-A categoria de governança e estrutura societária compreende documentos que regulam a organização interna e as diretrizes de conduta das companhias, como Acordos de Acionistas, Estatutos Sociais, Regimentos Internos, Códigos de Conduta, além de Políticas de Governança e Sustentabilidade. Esses registros são fundamentais para garantir a conformidade, a transparência e a integridade das práticas de gestão corporativa. 
+%A categoria de governança e estrutura societária compreende documentos que regulam a organização interna e as diretrizes de conduta das companhias, como Acordos de Acionistas, Estatutos Sociais, Regimentos Internos, Códigos de Conduta, além de Políticas de Governança e Sustentabilidade. Esses registros são fundamentais para garantir a conformidade, a transparência e a integridade das práticas de gestão corporativa. 
+%
+%Já os documentos de relação com investidores e mercado incluem comunicados oficiais direcionados ao público investidor e à sociedade, como Comunicados ao Mercado, Avisos a Acionistas e Debenturistas, Fatos Relevantes, Informações prestadas a bolsas estrangeiras e o Calendário de Eventos Corporativos. Tais documentos asseguram a divulgação tempestiva e adequada de informações relevantes, conforme exigido pelas normas da CVM.
+%
+%No que se refere às informações econômico-financeiras e contábeis, o conjunto abrange dados sobre a situação patrimonial e os resultados das companhias, além de instrumentos financeiros e políticas de distribuição de lucros. Incluem-se nessa categoria Demonstrativos Financeiros, Documentos de Ofertas Públicas, Escrituras de Debêntures, Políticas de Dividendos e de Destinação de Resultados. A categoria de transações e operações societárias, por sua vez, contém registros de eventos relevantes que impactam a estrutura e o capital das empresas, como Comunicações sobre Transações com Partes Relacionadas, Ofertas Públicas de Aquisição (OPA) e Planos de Remuneração Baseados em Ações. 
+%
+%Já a documentação relativa a companhias em situação especial reúne informações sobre empresas que enfrentam processos de falência, liquidação ou recuperação judicial/extrajudicial, sendo essenciais para análise de risco e monitoramento da situação jurídico-financeira dessas entidades. Por fim, a categoria de informações regulatórias específicas abrange documentos exigidos por normativos da CVM, como as comunicações sobre negociação de valores mobiliários por pessoas ligadas, políticas de atuação de auditores independentes e outras políticas internas obrigatórias.
+%
+%Todos os documentos do conjunto IPE são disponibilizados em arquivos compactados organizados por ano, mesmo quando cada compactado contém apenas um único arquivo estruturado em seu interior. Os arquivos correspondentes ao ano corrente e ao ano imediatamente anterior são atualizados semanalmente, incorporando tanto novas submissões quanto eventuais reapresentações. O acervo possui cobertura histórica desde 2003, incluindo arquivos legados que, embora não estejam sujeitos à política atual de atualização contínua, permanecem acessíveis para consulta.
+%
+%Cada conjunto anual acompanha um arquivo auxiliar contendo o dicionário de dados em formato textual, no qual são descritas as variáveis e a lógica de indexação aplicadas à organização dos documentos. A relevância dos arquivos IPE transcende o aspecto meramente documental. Sua análise permite identificar mudanças estruturais relevantes, como alterações no nome empresarial, na área de atuação ou na composição societária, constituindo uma fonte estratégica para o monitoramento de eventos corporativos vinculados a um determinado \textit{ticker}.
 
-Já os documentos de relação com investidores e mercado incluem comunicados oficiais direcionados ao público investidor e à sociedade, como Comunicados ao Mercado, Avisos a Acionistas e Debenturistas, Fatos Relevantes, Informações prestadas a bolsas estrangeiras e o Calendário de Eventos Corporativos. Tais documentos asseguram a divulgação tempestiva e adequada de informações relevantes, conforme exigido pelas normas da CVM.
+Embora o escopo completo do conjunto inclua categorias como governança, relação com investidores, demonstrações financeiras e eventos societários, este trabalho utiliza apenas parte das informações disponibilizadas — com ênfase nos registros mais diretamente relacionados à estrutura societária e à comunicação obrigatória ao mercado.
 
-No que se refere às informações econômico-financeiras e contábeis, o conjunto abrange dados sobre a situação patrimonial e os resultados das companhias, além de instrumentos financeiros e políticas de distribuição de lucros. Incluem-se nessa categoria Demonstrativos Financeiros, Documentos de Ofertas Públicas, Escrituras de Debêntures, Políticas de Dividendos e de Destinação de Resultados. A categoria de transações e operações societárias, por sua vez, contém registros de eventos relevantes que impactam a estrutura e o capital das empresas, como Comunicações sobre Transações com Partes Relacionadas, Ofertas Públicas de Aquisição (OPA) e Planos de Remuneração Baseados em Ações. 
+\begin{table}[!htb]
+	\centering
+	\caption{Amostra de registros sobre alteração de \textit{ticker} (conjunto IPE)}
+	\label{tab:ipe_amostra_ticker}
+	\scriptsize
+	\begin{tabularx}{\textwidth}{|l|X|c|X|X|X|}
+		\hline
+		\textbf{CNPJ\_Companhia} & \textbf{Nome\_Companhia} & \textbf{Código\_CVM} & \textbf{Tipo} & \textbf{Assunto} & \textbf{Tipo\_Apresentação} \\
+		\hline
+		02.846.056/0001-97 & MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A. & 18821 & Outros avisos & Alteração Ticker & AP - Apresentação \\
+		\hline
+		02.846.056/0001-97 & MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A. & 18821 & Outros avisos & Alteração Ticker & RE - Reapresentação Espontânea \\
+		\hline
+		02.846.056/0001-97 & MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A. & 18821 & Outros avisos & Alteração Ticker & RE - Reapresentação Espontânea \\
+		\hline
+		31.553.627/0001-01 & GRUPO TOKY S.A. & 25461 & Outros Comunicados Não Considerados Fatos Relevantes & Alteração de Ticker & AP - Apresentação \\
+		\hline
+		31.553.627/0001-01 & GRUPO TOKY S.A. & 25461 & Outros Comunicados Não Considerados Fatos Relevantes & Alteração de Ticker & RE - Reapresentação Espontânea \\
+		\hline
+	\end{tabularx}
+	\legend{Fonte: Dados abertos da CVM (adaptado pelo autor, 2025).}
+\end{table}
 
-Já a documentação relativa a companhias em situação especial reúne informações sobre empresas que enfrentam processos de falência, liquidação ou recuperação judicial/extrajudicial, sendo essenciais para análise de risco e monitoramento da situação jurídico-financeira dessas entidades. Por fim, a categoria de informações regulatórias específicas abrange documentos exigidos por normativos da CVM, como as comunicações sobre negociação de valores mobiliários por pessoas ligadas, políticas de atuação de auditores independentes e outras políticas internas obrigatórias.
 
-Todos os documentos do conjunto IPE são disponibilizados em arquivos compactados organizados por ano, mesmo quando cada compactado contém apenas um único arquivo estruturado em seu interior. Os arquivos correspondentes ao ano corrente e ao ano imediatamente anterior são atualizados semanalmente, incorporando tanto novas submissões quanto eventuais reapresentações. O acervo possui cobertura histórica desde 2003, incluindo arquivos legados que, embora não estejam sujeitos à política atual de atualização contínua, permanecem acessíveis para consulta.
 
-Cada conjunto anual acompanha um arquivo auxiliar contendo o dicionário de dados em formato textual, no qual são descritas as variáveis e a lógica de indexação aplicadas à organização dos documentos. A relevância dos arquivos IPE transcende o aspecto meramente documental: sua análise permite identificar mudanças estruturais relevantes, como alterações no nome empresarial, na área de atuação ou na composição societária, constituindo uma fonte estratégica para o monitoramento de eventos corporativos vinculados a um determinado \textit{ticker}.
+
+Os documentos são atualizados semanalmente para os dois anos mais recentes, incorporando tanto novas submissões quanto eventuais reapresentações, enquanto o acervo histórico remonta a 2003. Cada pacote anual é acompanhado por um dicionário de dados textual, que descreve a lógica de indexação e os campos presentes nos arquivos. A análise dessas informações permite identificar alterações institucionais relevantes, como mudanças de nome empresarial ou de composição acionária, fornecendo subsídios para o monitoramento de eventos corporativos vinculados a um determinado \textit{ticker}.
+
+Com o intuito de ilustrar a estrutura e o conteúdo dos registros disponíveis no conjunto IPE, a Tabela~\ref{tab:ipe_amostra_ticker} apresenta um recorte de documentos relacionados à alteração de \textit{ticker} por companhias abertas. Os registros exemplificam o tipo de dado acessado e evidenciam a ocorrência de múltiplas versões de um mesmo documento, submetidas em datas distintas ou sob diferentes tipos de apresentação (\textit{e.g.}, apresentação original e reapresentações espontâneas). Tais eventos são particularmente relevantes para o acompanhamento da dinâmica societária e comunicacional das companhias junto ao mercado.
+
+
 
 \subsection{Formulário de Referência}
 
-O Formulário de Referência (FRE) é um documento eletrônico cuja apresentação à CVM é obrigatória e periódica ou, em determinadas circunstâncias, eventual, por meio do sistema ENET. Sua principal finalidade é consolidar e divulgar, de maneira padronizada, um conjunto abrangente de informações sobre o emissor, contemplando sua estrutura societária, situação financeira, práticas de governança, riscos e relação com o mercado.
+O formulário de feferência (FRE) é um documento eletrônico cuja apresentação à CVM é obrigatória e periódica ou, em determinadas circunstâncias, eventual, por meio do sistema ENET. Sua principal finalidade é consolidar e divulgar, de maneira padronizada, um conjunto abrangente de informações sobre o emissor, contemplando sua estrutura societária, situação financeira, práticas de governança, riscos e relação com o mercado.
 
 O conjunto de dados públicos associados ao FRE é composto por dois elementos principais:
 
@@ -124,19 +216,19 @@ O primeiro item refere-se aos \textit{links} diretos para os formulários comple
 	\item aspectos sociais e de diversidade.
 \end{itemize}
 
-Uma visão geral dos arquivos estruturados que compõem o conjunto FRE encontra-se apresentada no Apêndice~\ref{ap:fre-visao-geral}, com a descrição, referência normativa e indicação de uso no trabalho.
+Uma visão geral dos arquivos estruturados que compõem o conjunto FRE encontra-se apresentada no Apêndice~\ref{ap:fre-visao-geral}.
 
 As informações estruturadas são atualizadas semanalmente, incorporando tanto novas submissões quanto reapresentações, e mantêm um histórico contínuo desde 2010. Essas atualizações derivam diretamente da base de Documentos Periódicos e Eventuais de Regulados submetidos à CVM. Cada pacote anual, disponível para os anos de 2010 a 2025, é disponibilizado em formato compactado e contém um conjunto completo de arquivos organizados por tipo de informação. Acompanha-se ainda um dicionário de dados, também compactado, que detalha as variáveis e colunas presentes.
 
 Dentre os arquivos incluídos nesses pacotes, destaca-se o \texttt{fre\_cia\_aberta}, que possui especial relevância nesta pesquisa. Esse arquivo concentra, de forma consolidada, as principais informações estruturadas de cada submissão do FRE e inclui os identificadores e os links necessários para recuperação dos documentos completos no sistema ENET. Tal característica torna o \texttt{fre\_cia\_aberta} uma fonte centralizada e eficiente para acesso ao conteúdo essencial das companhias analisadas.
 
-Embora os demais arquivos disponíveis nos pacotes — como \texttt{fre\_cia\_aberta\_remuneracao\_total\_orgao}, \texttt{fre\_cia\_aberta\_posicao\_acionaria}, entre outros, ofereçam informações relevantes e detalhadas sobre aspectos específicos do formulário, sua estrutura fragmentada e granular, aliada à sobreposição parcial de informações com o arquivo principal, levou à opção metodológica por sua não integração nesta etapa do trabalho. Assim, adotou-se exclusivamente o \texttt{fre\_cia\_aberta} como base de dados para análise, considerando sua abrangência e consistência com os objetivos da pesquisa.
+Embora os demais arquivos disponíveis nos pacotes, como \texttt{fre\_cia\_aberta\_remuneracao\_total\_orgao}, \texttt{fre\_cia\_aberta\_posicao\_acionaria}, entre outros, ofereçam informações relevantes e detalhadas sobre aspectos específicos do formulário, sua estrutura fragmentada e granular, aliada à sobreposição parcial de informações com o arquivo principal, levou à opção metodológica por sua não integração nesta etapa do trabalho. Assim, adotou-se exclusivamente o \texttt{fre\_cia\_aberta} como base de dados para análise, considerando sua abrangência e consistência com os objetivos da pesquisa.
 
 Essa delimitação visa garantir maior simplicidade no modelo de integração dos dados, sem prejuízo da possibilidade de incorporação futura de arquivos complementares, conforme a evolução das necessidades analíticas.
 
 
 \subsection{Valores mobiliários negociados e detidos}
-O conjunto de dados Valores mobiliários negociados e detidos (VLMO) contempla informações de envio obrigatório à CVM por meio do ENET. Trata-se de uma obrigação de natureza periódica, cujo cumprimento deve ser realizado pelas companhias abertas. Esse conjunto tem como objetivo registrar e divulgar, de maneira transparente, a posição e as negociações realizadas com valores mobiliários por administradores, membros do conselho fiscal, controladores e pessoas a eles vinculadas. O conjunto disponibiliza os informes entregues pelas companhias nos últimos cinco anos, organizados em arquivos anuais compactados, contendo os dados estruturados. Esses arquivos reúnem informações como:
+O conjunto de dados valores mobiliários negociados e detidos (VLMO) contempla informações de envio obrigatório à CVM por meio do ENET. Trata-se de uma obrigação de natureza periódica, cujo cumprimento deve ser realizado pelas companhias abertas. Esse conjunto tem como objetivo registrar e divulgar, de maneira transparente, a posição e as negociações realizadas com valores mobiliários por administradores, membros do conselho fiscal, controladores e pessoas a eles vinculadas. O conjunto disponibiliza os informes entregues pelas companhias nos últimos cinco anos, organizados em arquivos anuais compactados, contendo os dados estruturados. Esses arquivos reúnem informações como:
 
 \begin{itemize}
 	\item nome e CPF/CNPJ dos declarantes;
@@ -146,14 +238,12 @@ O conjunto de dados Valores mobiliários negociados e detidos (VLMO) contempla i
 	\item relação do declarante com a companhia emissora.
 \end{itemize}
 
-Os arquivos são acompanhados de um dicionário de dados, também em formato compactado. O conjunto é atualizado semanalmente. O histórico apesar de informado pela CVM que abrange os anos de 2020 a 2025, não esta correto a informação pois é possível constatar dados de 2018. Ele utiliza como base os \textit{Documentos Periódicos e Eventuais de Regulados}.
+Os arquivos são acompanhados de um dicionário de dados, também em formato compactado. O conjunto é atualizado semanalmente. Embora a CVM informe que o histórico disponível abrange os anos de 2020 a 2025, essa informação não está correta, uma vez que é possível identificar dados desde 2018.
 
-Importa esclarecer que, para este estudo, não foi utilizado nenhum arquivo do conjunto VLMO. Destaca-se, ainda, que esse conjunto assim como os demais analisados apresenta uma estrutura padronizada, composta por dois arquivos principais: um arquivo nomeado como \textit{vlmo\_cia\_aberta}, que contém os endereços para \textit{download} dos documentos entregues pelas companhias, e outro arquivo estruturado que apresenta a consolidação dos dados do VLMO. Ambos os arquivos encontram-se organizados por ano e disponibilizados em formato compactado.
+Importa esclarecer que, para este estudo, não foi utilizado nenhum arquivo do conjunto VLMO. Destaca-se, ainda, que esse conjunto assim como os demais analisados apresenta uma estrutura padronizada, composta por dois arquivos principais. Um arquivo nomeado como \textit{vlmo\_cia\_aberta}, que contém os endereços para \textit{download} dos documentos entregues pelas companhias. Outro arquivo estruturado que apresenta a consolidação dos dados do VLMO. Ambos arquivos encontram-se organizados por ano e disponibilizados em formato compactado.
 
 \subsection{Demonstrativos financeiros padronizados}
 Os demonstrativos financeiros padronizados (DFP) disponibilizados pela CVM, reúnem dados contábeis estruturados de companhias abertas brasileiras. Tanto o ITR quanto o DFP seguem um modelo uniforme de reporte, que inclui as principais demonstrações financeiras, informações cadastrais, pareceres e arquivos para \textit{download}.
-
-o conjunto de dados contempla as principais demonstrações financeiras, apresentadas em formato estruturado:
 
 o conjunto de dados contempla as principais demonstrações financeiras, apresentadas em formato estruturado:
 
@@ -189,17 +279,37 @@ o conjunto de dados contempla as principais demonstrações financeiras, apresen
 
 A principal distinção entre os dois documentos está na periodicidade, o ITR é divulgado trimestralmente, enquanto o DFP é publicado anualmente.
 
-\subsubsection{Informações trimestrais}
+%\subsubsection{Informações trimestrais}
 
-As informações trimestrais (ITR) é um documento eletrônico de entrega obrigatória pelas companhias abertas à CVM. Ele reúne informações contábeis elaboradas de forma trimestral, em conformidade com as normas contábeis vigentes, com o objetivo de garantir a transparência e o acompanhamento contínuo do desempenho das empresas. Além das demonstrações financeiras, o ITR inclui declarações de responsáveis, dados cadastrais, composição do capital social e \textit{links} para \textit{download} dos arquivos completos. Os registros históricos remontam a 2011, e os dados são acompanhados por um dicionário de variáveis disponível em arquivos compactados.
+As informações trimestrais (ITR) são documentos eletrônicos de entrega obrigatória pelas companhias abertas à CVM. Eles reúnem informações contábeis elaboradas de forma trimestral, em conformidade com as normas contábeis vigentes, com o objetivo de garantir a transparência e o acompanhamento contínuo do desempenho das empresas. Além das demonstrações financeiras, o ITR inclui declarações de responsáveis, dados cadastrais, composição do capital social e \textit{links} para \textit{download} dos arquivos completos. Os registros históricos remontam a 2011, e os dados são acompanhados por um dicionário de variáveis disponível em arquivos compactados.
 
-\subsubsection{Formulário de demonstrações financeiras padronizadas}
+%\subsubsection{Formulário de demonstrações financeiras padronizadas}
 
-O Formulário de demonstrações financeiras padronizada (DFP) reúne as demonstrações financeiras anuais das companhias abertas, conforme as resoluções apresentadas a cima, e é submetido exclusivamente por meio do sistema ENET. Esse formulário constitui uma base essencial para a análise da saúde patrimonial e econômica das empresas listadas no mercado de capitais brasileiro. O conjunto de dados é atualizado semanalmente e abrange informações desde 2010. Além das demonstrações financeiras, inclui pareceres de auditoria, declarações de administradores, dados cadastrais, composição acionária e \textit{links} para \textit{download} dos formulários. As demonstrações apresentam tanto contas fixas quanto variáveis, o que permite análises comparáveis e também personalizadas. Um dicionário técnico em formato compactado detalha todas as variáveis e campos disponíveis.
+O formulário de demonstrações financeiras padronizada (DFP) reúne as demonstrações financeiras anuais das companhias abertas, conforme as resoluções apresentadas a cima, e é submetido exclusivamente por meio do sistema ENET. Esse formulário constitui uma base essencial para a análise da saúde patrimonial e econômica das empresas listadas no mercado de capitais brasileiro. O conjunto de dados é atualizado semanalmente e abrange informações desde 2010. Além das demonstrações financeiras, inclui pareceres de auditoria, declarações de administradores, dados cadastrais, composição acionária e \textit{links} para \textit{download} dos formulários. As demonstrações apresentam tanto contas fixas quanto variáveis, o que permite análises comparáveis e também personalizadas. Um dicionário técnico em formato compactado detalha todas as variáveis e campos disponíveis.
+
+Com o intuito de ilustrar a estrutura dos dados extraídos dos DFPs, a Tabela~\ref{tab:exemplo_bpa_individual} apresenta um exemplo de registros do BPA, no formato individual e com periodicidade anual. Esse exemplo evidencia o padrão de organização das informações no conjunto, cuja estrutura é replicada também para as demais demonstrações financeiras mencionadas anteriormente. Tais arquivos contemplam versões individuais e consolidadas das companhias, permitindo análises contábeis em diferentes níveis de agregação e comparabilidade.
+
+
+\begin{table}[!htb]
+	\centering
+	\caption{Exemplo de registros do Balanço Patrimonial Ativo (DFP Individual)}
+	\label{tab:exemplo_bpa_individual}
+	\begin{tabularx}{\textwidth}{|l|c|c|X|c|X|c|c|c|c|X|X|X|c|}
+		\hline
+		\textbf{CNPJ} & \textbf{Data Ref.} & \textbf{Versão} & \textbf{Companhia} & \textbf{CVM} & \textbf{Grupo} & \textbf{Moeda} & \textbf{Escala} & \textbf{Ordem} & \textbf{Data Final} & \textbf{Código Conta} & \textbf{Descrição Conta} & \textbf{Valor} & \textbf{Conta Fixa} \\
+		\hline
+		02.635.522/0001-95 & 31/03/2025 & 1 & JALLES MACHADO S.A. & 25496 & DF Individual - Balanço Patrimonial Ativo & REAL & MIL & PENÚLTIMO & 31/03/2024 & 1 & Ativo Total & 60.488.020.000.000.000 & S \\
+		\hline
+		02.635.522/0001-95 & 31/03/2025 & 1 & JALLES MACHADO S.A. & 25496 & DF Individual - Balanço Patrimonial Ativo & REAL & MIL & ÚLTIMO & 31/03/2025 & 1 & Ativo Total & 63.709.880.000.000.000 & S \\
+		\hline
+	\end{tabularx}
+		\legend{Fonte: Dados abertos da CVM (adaptado pelo autor, 2025).}
+\end{table}
+
 
 \subsection{Informe do Código de Governança}
 
-O Informe do Código de Governança é um dos instrumentos regulatórios exigidos das companhias abertas brasileiras, com o objetivo de divulgar, de forma estruturada, as práticas de governança corporativa adotadas. Embora seja referenciado no site institucional da CVM pela sigla ICBGC, nos conjuntos de dados disponibilizados na plataforma de dados abertos, o conteúdo correspondente aparece sob a sigla CGVN. Considerando essa divergência de nomenclatura, este trabalho adota a sigla CGVN, conforme empregada nos arquivos estruturados.
+O informe do código de governança é um dos instrumentos regulatórios exigidos das companhias abertas brasileiras, com o objetivo de divulgar, de forma estruturada, as práticas de governança corporativa adotadas. Embora seja referenciado no site institucional da CVM pela sigla ICBGC, nos conjuntos de dados disponibilizados na plataforma de dados abertos, o conteúdo correspondente aparece sob a sigla CGVN. Considerando essa divergência de nomenclatura, este trabalho adota a sigla CGVN, conforme empregada nos arquivos estruturados.
 
 O envio do CGVN é de caráter obrigatório e periódico, conforme estipulado pelas resoluções já apresentadas. O processo de entrega deve ser realizado exclusivamente por meio do sistema ENET, utilizado pelas companhias abertas para o cumprimento de suas obrigações junto à CVM.
 
@@ -217,12 +327,7 @@ Os principais tópicos abordados no CGVN são:
 
 O conteúdo informado pelas companhias é padronizado e estruturado para possibilitar análise automatizada em larga escala. Os dados abrangem o período de 2018 a 2025 e são atualizados semanalmente, contemplando tanto novas submissões quanto reapresentações.
 
-O conjunto de dados CGVN é disponibilizado anualmente em arquivos compactados e organizados da seguinte forma:
-
-\begin{itemize}
-	\item \texttt{cgvm\_cia\_aberta};
-	\item \texttt{cgvn\_cia\_aberta\_praticas}.
-\end{itemize}
+O conjunto de dados CGVN é disponibilizado anualmente em arquivos compactados e organizados em \texttt{cgvm\_cia\_aberta} e \texttt{cgvn\_cia\_aberta\_praticas}.
 
 O primeiro arquivo contém os endereços para \textit{download} dos documentos completos entregues pelas companhias por meio do sistema ENET. Já o segundo arquivo apresenta os dados estruturados de forma tabular, organizados por companhia e prática declarada, permitindo processamento e análise automatizada.
 
@@ -231,9 +336,9 @@ O arquivo \texttt{cgvn\_cia\_aberta\_praticas} inclui colunas que indicam o CNPJ
 Cabe destacar que, para os fins deste trabalho, o conjunto de dados CGVN não foi incluído na análise prática, uma vez que o foco recai sobre conjuntos mais diretamente relacionados às demonstrações financeiras e ao cadastro das companhias.
 
 
-\subsection{Resumo dos dados iniciais da CVM}
+\subsection{Resumo da análise inicial dos dados}
 
-Com o intuito de compreender a estrutura e o comportamento dos dados disponibilizados pela CVM, foram desenvolvidos dois scripts em Python, descritos nos Apêndices~\ref{ap:codigo-baixar} e~\ref{ap:codigo-extrair}. O primeiro script realiza a varredura recursiva na pasta pública de dados abertos da CVM, efetuando o \textit{download} de todos os arquivos disponíveis sejam eles estruturados, compactados ou em formato textual sem a aplicação de filtros. O segundo script executa a extração em lote dos arquivos compactados, permitindo não apenas o acesso ao conteúdo interno, mas também a mensuração do volume, da diversidade e da granularidade dos dados presentes em cada conjunto. Essa etapa foi essencial para a análise preliminar, fornecendo uma visão concreta da organização e complexidade das bases tratadas.
+Com o intuito de compreender a estrutura e o comportamento dos dados disponibilizados pela CVM, foram desenvolvidos dois \textit{scripts} em Python, descritos nos Apêndices~\ref{ap:codigo-baixar} e~\ref{ap:codigo-extrair}. O primeiro \textit{script} realiza a varredura recursiva na pasta pública de dados abertos da CVM, efetuando o \textit{download} de todos os arquivos disponíveis sejam eles estruturados, compactados ou em formato textual sem a aplicação de filtros. O segundo \textit{script} executa a extração em lote dos arquivos compactados, permitindo não apenas o acesso ao conteúdo interno, mas também a mensuração do volume, da diversidade e da granularidade dos dados presentes em cada conjunto. Essa etapa foi essencial para a análise preliminar, fornecendo uma visão concreta da organização e complexidade das bases tratadas.
 
 Com base na análise exploratória viabilizada pelos \textit{scripts} desenvolvidos, foi possível identificar quais conjuntos de dados da CVM apresentam maior relevância, cobertura e estrutura adequada aos objetivos deste trabalho. A seleção final concentrou-se em bases que oferecem informações estruturadas, atualizadas e historicamente abrangentes, com potencial para análises fundamentalistas automatizadas. O Quadro~\ref{tab:comparativo_cvm} resume os principais aspectos dos conjuntos de dados escolhidos, os quais constituem o núcleo informacional utilizado ao longo deste estudo.
 
@@ -253,7 +358,9 @@ Com base na análise exploratória viabilizada pelos \textit{scripts} desenvolvi
 			
 			Formato              & CSV em ZIP                        & CSV em ZIP                         & CSV em ZIP                                      & CSV em ZIP                         & CSV em ZIP                                           \\ \hline
 			
-			Volume descompactado & 9,62 GB                           & 3,49 GB                            & 941 MB                                          & 28,2 MB                            & 261 MB                                               \\ \hline
+			Volume compactado    & 366\,MB (383.868.171 bytes)       & 154\,MB (161.873.423 bytes)        & 122\,MB (128.970.061 bytes)                     & 5{,}93\,MB (6.225.961 bytes)        & 26{,}3\,MB (27.610.852 bytes)                        \\ \hline
+			
+			Volume descompactado & 9{,}62 GB                         & 3{,}49 GB                           & 941 MB                                          & 28{,}2 MB                           & 261 MB                                               \\ \hline
 			
 			Estrutura            & Demonstrativos contábeis         & Demonstrativos consolidados        & Informações qualitativas diversas             & Dados cadastrais padronizados      & Documentos PDF + metadados                           \\ \hline
 			
@@ -261,29 +368,24 @@ Com base na análise exploratória viabilizada pelos \textit{scripts} desenvolvi
 			
 			Período histórico  & Desde 2011                        & Desde 2010                         & Desde 2010                                      & Desde 2010                         & Desde 2003                                           \\ \hline
 			
-			Destaques            & BPA, DRE, DFC, DMPL, DVA etc.     & BPA, DRE, DFC, DMPL, DVA etc.      & Capital social, remuneração, ESG, governança & CNPJ, endereço, auditor, canais   & Assembleias, fatos relevantes, estatutos, políticas \\ \hline
-			
-			Complexidade         & Alta (parse hierárquico)         & Média (consolidação)            & Alta (texto livre + variedade de temas)         & Baixa                              & Alta (texto livre, reapresentações)                \\ \hline
-			
-			Utilização         & Análise de desempenho trimestral & Análise patrimonial e histórica  & Análise estratégica e institucional           & Base de entidades (Dim\_Companhia) & Monitoramento de eventos corporativos                \\ \hline
+			Utilização         & Análise de desempenho trimestral & Análise patrimonial e histórica  & Análise estratégica e institucional           & Base de entidades & Monitoramento de eventos corporativos                \\ \hline
 		\end{tabularx}
 		\legend{Elaborado pelo autor, 2025.}
 	\end{varwidth}
 \end{board}
 
-A análise exploratória dos arquivos baixados e extraídos forneceu insumos valiosos para a etapa seguinte: o mapeamento dos dados. Essa fase consistiu na identificação das tabelas e colunas de origem, na avaliação de sua frequência de atualização e na estruturação de um modelo preliminar de destino. As informações coletadas por meio dos metadados auxiliaram na definição de domínios, tipos, tamanhos e descrições de campos, estabelecendo as bases técnicas para a modelagem relacional tratada na próxima seção.
 
-
+A análise exploratória dos arquivos baixados e extraídos forneceu insumos valiosos para a etapa seguinte, o mapeamento dos dados. Essa fase consistiu na identificação das tabelas e colunas de origem, na avaliação de sua frequência de atualização e na estruturação de um modelo preliminar de destino. As informações coletadas por meio dos metadados auxiliaram na definição de domínios, tipos, tamanhos e descrições de campos, estabelecendo as bases técnicas para a modelagem relacional tratada na próxima seção.
 
 
 
 \section{Modelagem e Estruturação dos Dados}\label{sec:modelagem}
 
-A modelagem da base de dados teve início com o mapeamento das principais categorias disponibilizadas pela CVM — FCA, FRE, IPE, DFP e ITR — considerando também, quando existentes, suas respectivas subcategorias. Essa etapa preliminar teve como foco a análise da estrutura dos arquivos e dos metadados associados, permitindo compreender a organização, a granularidade e os padrões recorrentes nos dados fornecidos. O detalhamento desse processo encontra-se no Apêndice~\ref{ap:mapeamento-cvm-dfp}. O procedimento adotado seguiu uma lógica semelhante à de um processo ETL (\textit{Extract, Transform, Load}), com ênfase na padronização, organização e enriquecimento das informações extraídas das demonstrações financeiras reportadas por companhias abertas à CVM.
+A modelagem da base de dados teve início com o mapeamento das principais categorias disponibilizadas pela CVM considerando também, quando existentes, suas respectivas subcategorias. Essa etapa preliminar teve como foco a análise da estrutura dos arquivos e dos metadados associados, permitindo compreender a organização, a granularidade e os padrões recorrentes nos dados fornecidos. O detalhamento desse processo encontra-se no Apêndice~\ref{ap:mapeamento-cvm-dfp}. O procedimento adotado seguiu uma lógica semelhante à de um processo \textit{Extract, Transform, Load} (ETL, em português extração, transformação e carga), com ênfase na padronização, organização e enriquecimento das informações extraídas das demonstrações financeiras reportadas por companhias abertas à CVM.
 
 Durante a etapa de extração, foram utilizados arquivos textual que possuem os metadados, presente em arquivos compactados. Esses pacotes são atualizados semanalmente e organizados por tipo de demonstração contábil, como BPA, BPP, DRE, DFC-MD e DFC-MI, DMPL, DRA, DVA e pareceres de auditoria. Cada arquivo trata exclusivamente de um tipo de demonstração, garantindo segmentação e clareza na origem dos dados.
 
-A etapa de transformação consistiu na padronização dos nomes de colunas e na normalização das estruturas tabulares. Realizou-se o mapeamento entre os campos originais e seus equivalentes no modelo relacional, adotando nomenclatura clara no padrão \texttt{snake\_case}. Exemplos incluem a substituição de \texttt{CD\_CVM} por \texttt{codigo\_cvm} e \texttt{DS\_CONTA} por \texttt{descricao\_conta}. Adicionalmente, foi realizado o enriquecimento temporal dos dados por meio da criação de três campos derivados a partir da data de referência (\texttt{DT\_REFER}): \texttt{data\_doc}, \texttt{mes\_doc} e \texttt{ano\_doc}. A tipagem dos campos foi definida com base em seus domínios originais, utilizando tipos como \texttt{varchar}, \texttt{decimal}, \texttt{date}, \texttt{smallint} e \texttt{char}, com destaque para colunas binárias com valores padronizados como “S” para sim ou “N” para não.
+A etapa de transformação consistiu na padronização dos nomes de colunas e na normalização das estruturas tabulares. Realizou-se o mapeamento entre os campos originais e seus equivalentes no modelo relacional, adotando nomenclatura clara no padrão \texttt{snake\_case}. Exemplos incluem a substituição de \texttt{CD\_CVM} por \texttt{codigo\_cvm} e \texttt{DS\_CONTA} por \texttt{descricao\_conta}. Adicionalmente, foi realizado o enriquecimento temporal dos dados por meio da criação de três campos derivados a partir da data de referência (\texttt{DT\_REFER}): \texttt{data\_doc}, \texttt{mes\_doc} e \texttt{ano\_doc}. A tipagem dos campos foi definida com base em seus domínios originais, utilizando tipos como \texttt{varchar}, \texttt{decimal}, \texttt{date}, \texttt{smallint} e \texttt{char}, com destaque para colunas binárias com valores padronizados como \textit{S} para sim ou \textit{N} para não.
 
 O carregamento dos dados estruturados ocorreu de forma centralizada, com a maioria das informações sendo direcionada à tabela \texttt{Dfp}, responsável por armazenar os demonstrativos financeiros. Casos específicos, como pareceres de auditoria, foram alocados na tabela \texttt{Dfp\_Parecer}. Adicionalmente, foi criada a tabela auxiliar \texttt{grupo\_dfp}, destinada a indicar se os dados referem-se a demonstrativos individuais ou consolidados. As atualizações seguem a mesma periodicidade dos arquivos-fonte, com carga semanal.
 
@@ -296,21 +398,26 @@ A estrutura resultante desse processo é padronizada e favorece a integração e
 	\item criação de índices específicos para acelerar consultas analíticas.
 \end{itemize}
 
-Com base em reuniões periódicas com o orientador, definiu-se que o foco da modelagem seria a otimização da estrutura de dados com vistas à análise fundamentalista, priorizando desempenho, integridade e reprodutibilidade. A primeira versão do esquema foi desenvolvida no MySQL Workbench, conforme ilustrado no Apêndice~\ref{ap:esquema-inicial}. Essa versão inicial foi utilizada como base para testes de estruturação lógica e verificação do comportamento das tabelas, embora ainda apresentasse redundâncias e ausência de refinamentos.
+%Com base em reuniões periódicas com o orientador, definiu-se que o foco da modelagem seria a otimização da estrutura de dados com vistas à análise fundamentalista, priorizando desempenho, integridade e reprodutibilidade. A primeira versão do esquema foi desenvolvida no MySQL Workbench, conforme ilustrado no Apêndice~\ref{ap:esquema-inicial}. Essa versão inicial foi utilizada como base para testes de estruturação lógica e verificação do comportamento das tabelas, embora ainda apresentasse redundâncias e ausência de refinamentos.
+%
+%Na sequência, foram realizados ajustes sucessivos no modelo, conforme apresentado no Apêndice~\ref{ap:esquema-algumas-modelagens}, com o objetivo de eliminar complexidades desnecessárias e tabelas pouco relevantes ao escopo do trabalho. A versão intermediária, descrita no Apêndice~\ref{ap:esquema-penultima-modelagem}, já incorporava a maior parte das estratégias descritas, refletindo uma estrutura mais coerente com a finalidade do projeto.
+%
+%Por fim, a versão final do modelo lógico foi implementada em \texttt{SQLite} e encontra-se documentada no Apêndice~\ref{ap:esquema-logico-ultimo-presente-no-codigo}. Essa versão consolida as decisões de modelagem e incorpora tabelas auxiliares que contribuíram para a redução do tamanho da base e para o ganho de eficiência nas operações. Trata-se do modelo utilizado na ferramenta desenvolvida e adotado como base da integração de dados no sistema proposto.
 
-Na sequência, foram realizados ajustes sucessivos no modelo, conforme apresentado no Apêndice~\ref{ap:esquema-algumas-modelagens}, com o objetivo de eliminar complexidades desnecessárias e tabelas pouco relevantes ao escopo do trabalho. A versão intermediária, descrita no Apêndice~\ref{ap:esquema-penultima-modelagem}, já incorporava a maior parte das estratégias descritas, refletindo uma estrutura mais coerente com a finalidade do projeto.
 
-Por fim, a versão final do modelo lógico foi implementada em \texttt{SQLite} e encontra-se documentada no Apêndice~\ref{ap:esquema-logico-ultimo-presente-no-codigo}. Essa versão consolida as decisões de modelagem e incorpora tabelas auxiliares que contribuíram para a redução do tamanho da base e para o ganho de eficiência nas operações. Trata-se do modelo utilizado na ferramenta desenvolvida e adotado como base da integração de dados no sistema proposto.
+Com base em reuniões periódicas com o orientador, definiu-se que o foco da modelagem seria a otimização da estrutura de dados com vistas à análise fundamentalista, priorizando desempenho, integridade e reprodutibilidade. A versão final do modelo lógico, implementada em \texttt{SQLite} e documentada no Apêndice~\ref{ap:esquema-logico-ultimo-presente-no-codigo}, consolida essas diretrizes. Ela incorpora tabelas auxiliares que contribuíram para a redução do tamanho da base e para o ganho de eficiência nas operações, além de refletir as decisões que nortearam a integração de dados no sistema proposto.
 
+Ainda que a ênfase recaia sobre essa versão definitiva, o processo de refinamento que a antecedeu foi fundamental para a obtenção de uma estrutura adequada. A primeira versão do esquema, desenvolvida no MySQL Workbench e apresentada no Apêndice~\ref{ap:esquema-inicial}, serviu como base para testes de estruturação lógica e verificação do comportamento das tabelas, ainda contendo redundâncias e falta de padronização.
 
-\section{Características e Benefícios Analíticos da Estrutura Final}
+Na sequência, ajustes sucessivos foram conduzidos, conforme ilustrado no Apêndice~\ref{ap:esquema-algumas-modelagens}, visando eliminar complexidades desnecessárias e tabelas pouco relevantes ao escopo do trabalho. A versão intermediária, descrita no Apêndice~\ref{ap:esquema-penultima-modelagem}, já incorporava grande parte das estratégias adotadas, antecipando a coerência e eficiência alcançadas na versão final.
+
 
 A estrutura final, fruto de sucessivos refinamentos, possui as seguintes características principais:
 
 \begin{itemize}
-	\item Estrutura simples e clara;
-	\item Facilidade de integração com sistemas externos;
-	\item Disponibilidade pública e acessível.
+	\item estrutura simples e clara;
+	\item facilidade de integração com sistemas externos;
+	\item disponibilidade pública e acessível.
 \end{itemize}
 
 A base contém apenas os dados essenciais, com nomenclaturas padronizadas e organização relacional intuitiva. Sua modularidade facilita a integração com outras fontes e ferramentas de análise.
@@ -320,20 +427,149 @@ Destaca-se ainda por ser aberta e pública, podendo ser utilizada em pesquisas a
 Entre os principais benefícios analíticos proporcionados pela base estão:
 
 \begin{itemize}
-	\item Facilidade na extração de indicadores financeiros;
-	\item Avaliação precisa do endividamento;
-	\item Estimativas confiáveis de valor intrínseco;
-	\item Comparações históricas e setoriais consistentes;
-	\item Apoio robusto à tomada de decisões financeiras.
+	\item facilidade na extração de indicadores financeiros;
+	\item avaliação precisa do endividamento;
+	\item estimativas confiáveis de valor intrínseco;
+	\item comparações históricas e setoriais consistentes;
+	\item apoio robusto à tomada de decisões financeiras.
 \end{itemize}
 
-Esses aspectos permitem análises fundamentalistas detalhadas, especialmente por meio da aplicação de indicadores de rentabilidade, como lucro por ação (LPA) e preço sobre lucro (P/L), além dos indicadores de liquidez, endividamento e das estimativas consistentes do valor intrínseco das empresas.
+Esses aspectos permitem análises fundamentalistas detalhadas, especialmente por meio da aplicação de indicadores de rentabilidade, como LPA e P/L, além dos indicadores de liquidez, endividamento e das estimativas consistentes do valor intrínseco das empresas.
 
 Por fim, a padronização dos dados possibilita comparações históricas e setoriais rigorosas, fornecendo um suporte consistente e confiável para investidores, pesquisadores e analistas financeiros.
 
 \section{Software} \label{sec:software}
 
+O desenvolvimento do sistema foi conduzido de forma incremental, utilizando uma abordagem modular e orientada à automação dos processos de coleta, extração, transformação e armazenamento de dados disponibilizados pela CVM. Esta seção descreve as principais decisões técnicas, a estrutura de diretórios, as ferramentas adotadas e os desafios enfrentados durante a construção do sistema.
 
+A arquitetura foi concebida com foco na organização do código, facilitando manutenções futuras e possíveis extensões. A estrutura de diretórios do projeto, representada na Figura~\ref{fig:estrutura_pasta_src}, reflete essa organização modular.
 
+\begin{figure}[!htb]
+	\centering
+	\caption{Estrutura dos diretórios do projeto}
+	\label{fig:estrutura_pasta_src}
+	\begin{varwidth}{\linewidth}
+		\dirtree{%
+			.1 {src/}.
+			.2 {collectors/} \DTcomment{Scripts de coleta e download dos arquivos da CVM}.
+			.2 {extractor/} \DTcomment{Processamento e extração de dados dos arquivos}.
+			.2 {models/} \DTcomment{Definições das entidades de dados}.
+			.2 {service/} \DTcomment{Serviços que interpretam e transformam os dados}.
+			.2 {utils/} \DTcomment{Funções utilitárias (logger, helpers)}.
+			.2 {main} \DTcomment{Arquivo principal que executa o pipeline}.
+		}
+		\legend{Elaborado pelo autor, 2025.}
+	\end{varwidth}
+\end{figure}
 
+O diretório \texttt{collectors} concentra os scripts responsáveis por acessar a estrutura pública do site da CVM e realizar o download automatizado dos arquivos estruturados, respeitando a organização original dos dados. Essa etapa assegura integridade e reprodutibilidade no processo de obtenção das informações.
+
+Após a coleta, os arquivos são processados pelo módulo \texttt{extractor}, que realiza a descompactação e leitura dos dados, tratando problemas recorrentes como codificação inconsistente, colunas com formatação variável e ausência de metainformações. Esse tratamento padroniza os dados brutos para que possam ser utilizados nas etapas seguintes.
+
+A definição das entidades e tabelas do banco de dados ocorre no módulo \texttt{models}, que representa os dados em estruturas relacionais adequadas. Essa abstração permite que os dados sejam tratados como objetos bem definidos, facilitando a inserção, validação e manutenção do esquema ao longo do desenvolvimento.
+
+No diretório \texttt{service} são implementadas as regras de negócio específicas para cada categoria de dado. Esses serviços interpretam o conteúdo dos arquivos extraídos, aplicam filtros, transformam os valores e os preparam para persistência com base no modelo definido.
+
+Funções auxiliares que apoiam todas as etapas, como \textit{loggers}, tratadores de exceção, validadores e manipuladores de diretórios — estão centralizadas no módulo \texttt{utils}, promovendo reutilização e coesão.
+
+A execução completa do sistema ocorre a partir do arquivo principal localizado na raiz do diretório \texttt{src/}. Esse \textit{script} orquestra todo o pipeline, desde o download até a inserção dos dados no banco, utilizando parâmetros definidos previamente e registrando cada etapa por meio de um sistema estruturado de \textit{logging}. O fluxo de execução é composto por cinco etapas principais: (i) coleta dos arquivos da CVM; (ii) extração e leitura dos conteúdos estruturados; (iii) transformação e normalização dos dados; (iv) persistência no banco relacional; e (v) registro de \textit{logs}.
+
+A Figura~\ref{fig:codigo_download} apresenta a função responsável pela coleta de arquivos no módulo \texttt{collectors}, com verificação da resposta HTTP e escrita dos dados em disco.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Função de coleta com verificação de resposta HTTP}
+	\label{fig:codigo_download}
+	\begin{varwidth}{\linewidth}
+		\begin{minted}[fontsize=\small,breaklines]{python}
+def download_file(url: str, output_path: str):
+	response = requests.get(url, stream=True, timeout=30)
+	if response.status_code == 200:
+		with open(output_path, 'wb') as f:
+			for chunk in response.iter_content(chunk_size=8192):
+				f.write(chunk)
+				logger.info(f"Download concluído: {output_path}")
+	else:
+	logger.error(f"Erro no download: {url} [{response.status_code}]")
+		\end{minted}
+		\legend{Elaborado pelo autor, 2025.}
+	\end{varwidth}
+\end{figure}
+
+A extração e leitura dos arquivos estruturados ocorrem por meio de funções localizadas no módulo \texttt{extractor}. A Figura~\ref{fig:codigo_read_csv} ilustra o processo de leitura e padronização de colunas de arquivos CSV, incluindo o tratamento de exceções.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Função de leitura e normalização de arquivos CSV}
+	\label{fig:codigo_read_csv}
+	\begin{varwidth}{\linewidth}
+		\begin{minted}[fontsize=\small,breaklines]{python}
+def read_csv_normalizado(path):
+	try:
+		df = pd.read_csv(path, sep=';', encoding='latin1')
+		df.columns = [col.strip().lower() for col in df.columns]
+		return df
+	except Exception as e:
+		logger.error(f"Erro ao ler CSV {path}: {e}")
+		return pd.DataFrame()
+		\end{minted}
+		\legend{Elaborado pelo autor, 2025.}
+	\end{varwidth}
+\end{figure}
+
+A persistência dos dados no banco de dados SQLite é realizada com o uso do SQLAlchemy, garantindo controle transacional e tratamento de erros. A Figura~\ref{fig:codigo_insercao} apresenta a função de inserção com verificação de duplicações e controle de integridade.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Função de inserção com controle transacional}
+	\label{fig:codigo_insercao}
+	\begin{varwidth}{\linewidth}
+		\begin{minted}[fontsize=\small,breaklines]{python}
+def inserir_empresa(session, empresa: Empresa):
+	try:
+		session.add(empresa)
+		session.commit()
+		logger.info(f"Empresa inserida: {empresa.razao_social}")
+	except IntegrityError:
+		session.rollback()
+		logger.warning(f"Empresa duplicada: {empresa.cnpj}")
+		\end{minted}
+		\legend{Elaborado pelo autor, 2025.}
+	\end{varwidth}
+\end{figure}
+
+Todos os eventos do sistema são registrados por meio de um mecanismo estruturado de \textit{logging}, com arquivos organizados por data e tipo de evento. A Figura~\ref{fig:estrutura_logs} apresenta o padrão de organização dos diretórios de log gerados.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Organização dos arquivos de \textit{log} gerados pelo sistema}
+	\label{fig:estrutura_logs}
+	\begin{varwidth}{\linewidth}
+		\begin{minted}[fontsize=\small, breaklines]{text}
+logs/logs_insercao/YYYY-MM-DD/sucesso.log
+logs/logs_insercao/YYYY-MM-DD/erro.log
+		\end{minted}
+		\legend{Elaborado pelo autor, 2025.}
+	\end{varwidth}
+\end{figure}
+
+Em caso de falhas, as mensagens são registradas de forma descritiva. A Figura~\ref{fig:log_erro} exibe um exemplo de erro capturado no log.
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Exemplo de mensagem registrada em caso de erro}
+	\label{fig:log_erro}
+	\begin{varwidth}{\linewidth}
+		\begin{minted}[fontsize=\small,breaklines]{text}
+ERROR - Erro na etapa Empresas: [Errno 2] No such file or directory
+		\end{minted}
+		\legend{Elaborado pelo autor, 2025.}
+	\end{varwidth}
+\end{figure}
+
+Embora o sistema não possua uma suíte formal de testes automatizados, cada etapa foi verificada manualmente, com base na análise dos \textit{logs}, inspeção direta no banco de dados e execução segmentada dos \textit{scripts}. Etapas críticas, como a transformação e a consistência de chaves primárias, foram alvo de testes recorrentes para garantir a integridade dos registros.
+
+Durante o desenvolvimento, diversos desafios foram enfrentados, especialmente relacionados à heterogeneidade e inconsistência dos arquivos da CVM. Foram necessárias estratégias específicas para lidar com documentos malformados, ausência de campos obrigatórios e variações de formatação. O sistema passou por sucessivas refatorações com o objetivo de melhorar a legibilidade, desacoplar componentes e aumentar a performance geral do pipeline.
+
+Ao final, obteve-se um sistema robusto, capaz de realizar a ingestão automatizada de grandes volumes de dados com rastreabilidade e controle de erros. A modularização adotada permite a expansão futura, como a adaptação para outros bancos de dados, a inclusão de testes automatizados e a integração com ferramentas de visualização analítica.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.20)  25 JUN 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.20)  1 JUL 2025 17:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1633,7 +1633,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
 
 ]
-(monografia.lot)
+(monografia.lot
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+.
+
+(C:\Users\vinicius.costa\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+))
 \tf@lot=\write8
 \openout8 = `monografia.lot'.
 
@@ -1853,7 +1859,7 @@ line 194.
 LaTeX Warning: Citation 'scannapieco:2006:data' on page 24 undefined on input l
 ine 196.
 
-<figuras/esquema_logico.pdf, id=300, 402.50375pt x 222.8325pt>
+<figuras/esquema_logico.pdf, id=315, 402.50375pt x 222.8325pt>
 File: figuras/esquema_logico.pdf Graphic file (type pdf)
 <use figuras/esquema_logico.pdf>
 Package pdftex.def Info: figuras/esquema_logico.pdf  used on input line 202.
@@ -1869,12 +1875,7 @@ Underfull \hbox (badness 1910) in paragraph at lines 230--231
 os re-la-ci-o-nais
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-38.
-
-(C:\Users\vinicius.costa\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [25]
+[25]
 
 LaTeX Warning: Citation 'costa:2024:integraccao' on page 26 undefined on input 
 line 244.
@@ -1978,7 +1979,7 @@ LaTeX Warning: Citation 'cvm:2023:relatorioanual' on page 31 undefined on input
 LaTeX Warning: Citation 'b3:2023:estruturadados' on page 31 undefined on input 
 line 35.
 
-<figuras/fluxograma - v3.pdf, id=356, 882.03545pt x 569.05513pt>
+<figuras/fluxograma - v3.pdf, id=370, 882.03545pt x 569.05513pt>
 File: figuras/fluxograma - v3.pdf Graphic file (type pdf)
 <use figuras/fluxograma - v3.pdf>
 Package pdftex.def Info: figuras/fluxograma - v3.pdf  used on input line 42.
@@ -2053,183 +2054,866 @@ ut line 3.
 ]
 
 LaTeX Warning: Citation 'cvm:2022:resolucao80' on page 36 undefined on input li
-ne 35.
+ne 39.
 
 
 LaTeX Warning: Citation 'cvm:2021:resolucao44' on page 36 undefined on input li
-ne 35.
+ne 39.
 
-[36] [37] [38] [39] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[36]
+Overfull \hbox (11.86969pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/b/n/8 DENOM_SOCIAL| 
+ []
+
+
+Overfull \hbox (10.13342pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 08.773.135/0001-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 2W ECO-
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 76--76
+\T1/phv/m/n/8 BANK S.A. -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\T1/phv/m/n/8 EM RE-CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\T1/phv/m/n/8 PE-RA-ÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 Energia Elé-
+ []
+
+
+Overfull \hbox (27.15742pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 ri@2wecobank.com.br| 
+ []
+
+
+Overfull \hbox (10.13342pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 11.396.633/0001-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 3A COM-PA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\T1/phv/m/n/8 NHIA SE-CU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 Securitização
+ []
+
+
+Overfull \hbox (12.56554pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 dri@3asec.com.br| 
+ []
+
+
+Overfull \hbox (10.13342pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 01.547.749/0001-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 521 PAR-TI-CI-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 76--76
+\T1/phv/m/n/8 PA-ÇÕES S.A.
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 76--76
+\T1/phv/m/n/8 ÇÃO EX-TRA-
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 Emp. Adm.
+ []
+
+
+Overfull \hbox (41.74149pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 eximia@eximiacapital.com| 
+ []
+
+
+Overfull \hbox (10.13342pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 01.851.771/0001-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 524 PAR-TI-CI-
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 Emp. Adm.
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 76--76
+\T1/phv/m/n/8 Part. - Sem
+ []
+
+
+Overfull \hbox (32.86916pt too wide) in paragraph at lines 76--76
+[]|\T1/phv/m/n/8 gar@opportunity.com.br| 
+ []
+
+[37] [38]
+Overfull \hbox (15.20189pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/b/n/8 Empresa| 
+ []
+
+
+Overfull \hbox (3.6341pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/b/n/8 Nome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/b/n/8 An-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/b/n/8 te-
+ []
+
+
+Overfull \hbox (1.85803pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/b/n/8 Setor| 
+ []
+
+
+Overfull \hbox (11.80197pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/b/n/8 Website| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 BCO
+ []
+
+
+Overfull \hbox (0.52208pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 BRA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 SIL
+ []
+
+
+Overfull \hbox (4.09006pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 Banco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 Múl-
+ []
+
+
+Overfull \hbox (35.64978pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 www.bb.com.br| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 BRB
+ []
+
+
+Overfull \hbox (9.858pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 BANCO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 DE
+ []
+
+
+Overfull \hbox (0.52208pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 BRA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 SÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 LIA
+ []
+
+
+Overfull \hbox (9.858pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 BANCO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 RE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 GI-O-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 NAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 DE
+ []
+
+
+Overfull \hbox (0.52208pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 BRA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 SÍ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 LIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 S.A.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 -
+ []
+
+
+Overfull \hbox (4.09006pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 Banco
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 Múl-
+ []
+
+
+Overfull \hbox (38.39374pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 www.brb.com.br| 
+ []
+
+
+Overfull \hbox (21.8579pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 CENTRAIS
+ []
+
+
+Overfull \hbox (2.68204pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 ELÉT.
+ []
+
+
+Overfull \hbox (5.25801pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 BRAS.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 S.A.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 ELE-
+ []
+
+
+Overfull \hbox (0.80215pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 TRO-
+ []
+
+
+Overfull \hbox (3.19405pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 BRAS| 
+ []
+
+
+Overfull \hbox (8.52998pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 Holding
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/phv/m/n/8 de
+ []
+
+
+Overfull \hbox (0.97005pt too wide) in paragraph at lines 130--130
+\T1/phv/m/n/8 Ener-
+ []
+
+
+Overfull \hbox (53.18564pt too wide) in paragraph at lines 130--130
+[]|\T1/phv/m/n/8 www.eletrobras.com| 
+ []
+
+[39]
+Overfull \hbox (5.4661pt too wide) in paragraph at lines 185--185
+[]|\T1/phv/b/n/8 Nome_Companhia| 
+ []
+
+
+Overfull \hbox (9.47401pt too wide) in paragraph at lines 185--185
+[]|\T1/phv/b/n/8 Tipo_Apresentação| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 MOTIVA IN-FRA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\T1/phv/m/n/8 MO-BI-LI-DADE
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 AP - Apre-sen-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 MOTIVA IN-FRA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\T1/phv/m/n/8 MO-BI-LI-DADE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 MOTIVA IN-FRA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\T1/phv/m/n/8 MO-BI-LI-DADE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 GRUPO TOKY
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 AP - Apre-sen-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/phv/m/n/8 GRUPO TOKY
+ []
+
+[40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 []\T1/phv/m/n/12 Dentre os ar-qui-vos in-cluí-dos nes-ses pa-co-tes, destaca-se
  o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-[]\T1/phv/m/n/12 Embora os de-mais ar-qui-vos dis-po-ní-veis nos pa-co-tes ^^V 
-como
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+[]\T1/phv/m/n/12 Embora os de-mais ar-qui-vos dis-po-ní-veis nos pa-co-tes, com
+o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 \T1/cmtt/m/n/12 fre_cia_aberta_remuneracao_total_orgao\T1/phv/m/n/12 , \T1/cmtt
 /m/n/12 fre_cia_aberta_posicao_acionaria\T1/phv/m/n/12 ,
  []
 
-[41] [42] [43] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+[42] [43]
+
+Package tabularx Warning: X Columns too narrow (table too wide)
+(tabularx)                 on input line 305.
+
+
+Overfull \hbox (53.3395pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/b/n/12 Companhia| 
+ []
+
+
+Overfull \hbox (23.99971pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/b/n/12 Grupo| 
+ []
+
+
+Overfull \hbox (29.32777pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/b/n/12 Código
+ []
+
+
+Overfull \hbox (21.9958pt too wide) in paragraph at lines 305--305
+\T1/phv/b/n/12 Conta| 
+ []
+
+
+Overfull \hbox (45.3593pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/b/n/12 Descrição
+ []
+
+
+Overfull \hbox (21.9958pt too wide) in paragraph at lines 305--305
+\T1/phv/b/n/12 Conta| 
+ []
+
+
+Overfull \hbox (17.29158pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/b/n/12 Valor| 
+ []
+
+
+Overfull \hbox (31.11562pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 JALLES
+ []
+
+
+Overfull \hbox (9.99582pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 MA-
+ []
+
+
+Overfull \hbox (31.33165pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 CHADO
+ []
+
+
+Overfull \hbox (10.43962pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 S.A.| 
+ []
+
+
+Overfull \hbox (3.99594pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 DF
+ []
+
+
+Overfull \hbox (2.00375pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 In-
+ []
+
+
+Overfull \hbox (1.33183pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 di-
+ []
+
+
+Overfull \hbox (0.65991pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 vi-
+ []
+
+
+Overfull \hbox (10.67972pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 dual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+\T1/phv/m/n/12 -
+ []
+
+
+Overfull \hbox (6.67178pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 Ba-
+ []
+
+
+Overfull \hbox (16.67972pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 lanço
+ []
+
+
+Overfull \hbox (6.1919pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 Pa-
+ []
+
+
+Overfull \hbox (2.17162pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 tri-
+ []
+
+
+Overfull \hbox (8.66383pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 mo-
+ []
+
+
+Overfull \hbox (6.67175pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 nial
+ []
+
+
+Overfull \hbox (14.37566pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 Ativo| 
+ []
+
+
+Overfull \hbox (14.37566pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 Ativo
+ []
+
+
+Overfull \hbox (4.55992pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 To-
+ []
+
+
+Overfull \hbox (0.67175pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 tal| 
+ []
+
+
+Overfull \hbox (118.10204pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 60.488.020.000.000.000| 
+ []
+
+
+Overfull \hbox (31.11562pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 JALLES
+ []
+
+
+Overfull \hbox (9.99582pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 MA-
+ []
+
+
+Overfull \hbox (31.33165pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 CHADO
+ []
+
+
+Overfull \hbox (10.43962pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 S.A.| 
+ []
+
+
+Overfull \hbox (3.99594pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 DF
+ []
+
+
+Overfull \hbox (2.00375pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 In-
+ []
+
+
+Overfull \hbox (1.33183pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 di-
+ []
+
+
+Overfull \hbox (0.65991pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 vi-
+ []
+
+
+Overfull \hbox (10.67972pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 dual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+\T1/phv/m/n/12 -
+ []
+
+
+Overfull \hbox (6.67178pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 Ba-
+ []
+
+
+Overfull \hbox (16.67972pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 lanço
+ []
+
+
+Overfull \hbox (6.1919pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 Pa-
+ []
+
+
+Overfull \hbox (2.17162pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 tri-
+ []
+
+
+Overfull \hbox (8.66383pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 mo-
+ []
+
+
+Overfull \hbox (6.67175pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 nial
+ []
+
+
+Overfull \hbox (14.37566pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 Ativo| 
+ []
+
+
+Overfull \hbox (14.37566pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 Ativo
+ []
+
+
+Overfull \hbox (4.55992pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 To-
+ []
+
+
+Overfull \hbox (0.67175pt too wide) in paragraph at lines 305--305
+\T1/phv/m/n/12 tal| 
+ []
+
+
+Overfull \hbox (118.10204pt too wide) in paragraph at lines 305--305
+[]|\T1/phv/m/n/12 63.709.880.000.000.000| 
+ []
+
+
+Overfull \hbox (284.92188pt too wide) in alignment at lines 305--305
+[][][][][][][][][][][][][][] 
+ []
+
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Informações Tri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Demonstrações
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 269--269
+Underfull \hbox (badness 1275) in paragraph at lines 372--372
 \T1/phv/m/n/8 Fi-nan-cei-ras Anu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Cadastro de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 \T1/phv/m/n/8 Com-pa-nhia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Documentos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 \T1/phv/m/n/8 Pe-rió-di-
  []
 
 
-Overfull \hbox (2.80777pt too wide) in paragraph at lines 269--269
+Overfull \hbox (2.80777pt too wide) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Periódico/Eventual| 
  []
 
 
-Overfull \hbox (2.80777pt too wide) in paragraph at lines 269--269
+Overfull \hbox (2.80777pt too wide) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Periódico/Eventual| 
  []
 
 
-Overfull \hbox (2.80777pt too wide) in paragraph at lines 269--269
+Overfull \hbox (2.80777pt too wide) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Periódico/Eventual| 
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 269--269
+Underfull \hbox (badness 2790) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 Volume com-pac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 366MB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\T1/phv/m/n/8 (383.868.171
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 154MB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\T1/phv/m/n/8 (161.873.423
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 122MB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\T1/phv/m/n/8 (128.970.061
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 5,93MB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 26,3MB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+\T1/phv/m/n/8 (27.610.852
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Volume des-com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Demonstrativos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Demonstrativos
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 269--269
-[]|\T1/phv/m/n/8 CNPJ, en-de-reço,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\T1/phv/m/n/8 Assembleias,
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 269--269
-\T1/phv/m/n/8 fa-tos re-le-van-tes,
- []
-
-
-Underfull \hbox (badness 7667) in paragraph at lines 269--269
-\T1/phv/m/n/8 es-ta-tu-tos, po-lí-ti-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 269--269
-[]|\T1/phv/m/n/8 Alta (texto li-vre,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Análise de de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 \T1/phv/m/n/8 sem-pe-nho tri-
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 269--269
+Underfull \hbox (badness 7081) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Análise pa-tri-mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Análise es-tra-té-
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 269--269
+Underfull \hbox (badness 1184) in paragraph at lines 372--372
 \T1/phv/m/n/8 gica e ins-ti-tu-ci-o-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-[]|\T1/phv/m/n/8 Base de
+Underfull \hbox (badness 2134) in paragraph at lines 372--372
+[]|\T1/phv/m/n/8 Base de en-ti-da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
-\T1/phv/m/n/8 en-ti-da-des
- []
-
-
-Overfull \hbox (1.48807pt too wide) in paragraph at lines 269--269
-\T1/phv/m/n/8 (Dim_Companhia)| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []|\T1/phv/m/n/8 Monitoramento
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 269--269
+Underfull \hbox (badness 3525) in paragraph at lines 372--372
 \T1/phv/m/n/8 de even-tos cor-
  []
 
-[45] [46] [47]) [48]
+[46] [47] [48] [49]
+\c@minted@tmpcodebufferlength=\count518
+\pydata@fh@0=\write10
+\openout10 = `_BD2D0FEC491B8355352DBA7DD970BB57.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250701173338 BD2D0FEC491B8355352DBA
+7DD970BB57)...executed.
+
+ (_BD2D0FEC491B8355352DBA7DD970BB57.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20250701173338 BD2D0FEC491B83553
+52DBA7DD970BB57)...executed.
+
+
+(_minted/borland.style.minted)
+(_minted/CF41886570F201186B88EB049148411E.highlight.minted) [50]
+(_minted/CF41886570F201186B88EB049148411E.highlight.minted)
+(_minted/CF41886570F201186B88EB049148411E.highlight.minted)
+(_minted/69BFC792E70B80AA55DD115513492A49.highlight.minted)
+(_minted/69BFC792E70B80AA55DD115513492A49.highlight.minted) [51]) [52]
 Cap\'{\i }tulo 5.
-(5_conclusao.tex) [49
+(5_conclusao.tex) [53
 
 ]
 
 LaTeX Warning: Empty bibliography on input line 124.
 
-[50
+[54
 
-] [51
+] [55
 
-] [52
+] [56
 
 ]
 ApÃªndice A.
@@ -2258,10 +2942,10 @@ Underfull \hbox (badness 7595) in paragraph at lines 163--163
 []|\T1/phv/m/n/12 Complemento de en-de-
  []
 
-[53
+[57
 
 
-] [54] [55]
+] [58] [59]
 ApÃªndice B.
 
 Underfull \hbox (badness 10000) in paragraph at lines 217--218
@@ -2318,9 +3002,9 @@ Overfull \hbox (5.32083pt too wide) in alignment at lines 223--236
  [] [] [] [] 
  []
 
-[56
+[60
 
-] [57]
+] [61]
 ApÃªndice C.
 
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
@@ -2382,9 +3066,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--275
 []|\T1/phv/m/n/12 Econômico-
  []
 
-[58
+[62
 
-] [59]
+] [63]
 ApÃªndice D.
 
 Underfull \hbox (badness 10000) in paragraph at lines 290--291
@@ -2486,11 +3170,11 @@ Overfull \hbox (5.32083pt too wide) in alignment at lines 296--337
  [] [] [] [] 
  []
 
-[60
+[64
 
-] [61] [62]
+] [65] [66]
 ApÃªndice E.
-<codigo/baixar.pdf, id=552, 597.23125pt x 845.1575pt>
+<codigo/baixar.pdf, id=592, 597.23125pt x 845.1575pt>
 File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf>
 Package pdftex.def Info: codigo/baixar.pdf  used on input line 347.
@@ -2499,7 +3183,7 @@ File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf>
 Package pdftex.def Info: codigo/baixar.pdf  used on input line 347.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<codigo/baixar.pdf, id=555, page=1, 597.23125pt x 845.1575pt>
+<codigo/baixar.pdf, id=595, page=1, 597.23125pt x 845.1575pt>
 File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf, page 1>
 Package pdftex.def Info: codigo/baixar.pdf , page1 used on input line 347.
@@ -2508,7 +3192,7 @@ File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf, page 1>
 Package pdftex.def Info: codigo/baixar.pdf , page1 used on input line 347.
 (pdftex.def)             Requested size: 596.69211pt x 844.39456pt.
-[63
+[67
 
 ]
 File: codigo/baixar.pdf Graphic file (type pdf)
@@ -2523,10 +3207,10 @@ File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf, page 1>
 Package pdftex.def Info: codigo/baixar.pdf , page1 used on input line 347.
 (pdftex.def)             Requested size: 596.69211pt x 844.39456pt.
- [64
+ [68
 
  <./codigo/baixar.pdf>]
-<codigo/baixar.pdf, id=579, page=2, 597.23125pt x 845.1575pt>
+<codigo/baixar.pdf, id=619, page=2, 597.23125pt x 845.1575pt>
 File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf, page 2>
 Package pdftex.def Info: codigo/baixar.pdf , page2 used on input line 347.
@@ -2539,11 +3223,11 @@ File: codigo/baixar.pdf Graphic file (type pdf)
 <use codigo/baixar.pdf, page 2>
 Package pdftex.def Info: codigo/baixar.pdf , page2 used on input line 347.
 (pdftex.def)             Requested size: 596.69211pt x 844.39456pt.
- [65
+ [69
 
  <./codigo/baixar.pdf>]
 ApÃªndice F.
-<codigo/extrair.pdf, id=585, 597.23125pt x 845.1575pt>
+<codigo/extrair.pdf, id=624, 597.23125pt x 845.1575pt>
 File: codigo/extrair.pdf Graphic file (type pdf)
 <use codigo/extrair.pdf>
 Package pdftex.def Info: codigo/extrair.pdf  used on input line 351.
@@ -2552,7 +3236,7 @@ File: codigo/extrair.pdf Graphic file (type pdf)
 <use codigo/extrair.pdf>
 Package pdftex.def Info: codigo/extrair.pdf  used on input line 351.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<codigo/extrair.pdf, id=588, page=1, 597.23125pt x 845.1575pt>
+<codigo/extrair.pdf, id=627, page=1, 597.23125pt x 845.1575pt>
 File: codigo/extrair.pdf Graphic file (type pdf)
 <use codigo/extrair.pdf, page 1>
 Package pdftex.def Info: codigo/extrair.pdf , page1 used on input line 351.
@@ -2561,7 +3245,7 @@ File: codigo/extrair.pdf Graphic file (type pdf)
 <use codigo/extrair.pdf, page 1>
 Package pdftex.def Info: codigo/extrair.pdf , page1 used on input line 351.
 (pdftex.def)             Requested size: 596.69211pt x 844.39456pt.
-[66
+[70
 
 ]
 File: codigo/extrair.pdf Graphic file (type pdf)
@@ -2576,11 +3260,11 @@ File: codigo/extrair.pdf Graphic file (type pdf)
 <use codigo/extrair.pdf, page 1>
 Package pdftex.def Info: codigo/extrair.pdf , page1 used on input line 351.
 (pdftex.def)             Requested size: 596.69211pt x 844.39456pt.
- [67
+ [71
 
  <./codigo/extrair.pdf>]
 ApÃªndice G.
-<apendice/Mapeamento CIA Aberta.pdf, id=612, 845.1575pt x 597.23125pt>
+<apendice/Mapeamento CIA Aberta.pdf, id=652, 845.1575pt x 597.23125pt>
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
 <use apendice/Mapeamento CIA Aberta.pdf>
 Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf  used on input line
@@ -2591,7 +3275,7 @@ File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf  used on input line
  355.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<apendice/Mapeamento CIA Aberta.pdf, id=615, page=1, 845.1575pt x 597.23125pt>
+<apendice/Mapeamento CIA Aberta.pdf, id=655, page=1, 845.1575pt x 597.23125pt>
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
 <use apendice/Mapeamento CIA Aberta.pdf, page 1>
 Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page1 used on inp
@@ -2602,7 +3286,7 @@ File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page1 used on inp
 ut line 355.
 (pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-[68
+[72
 
 ]
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
@@ -2618,104 +3302,104 @@ ut line 355.
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
 <use apendice/Mapeamento CIA Aberta.pdf, page 1>
 Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page1 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
- [69
-
- <./apendice/Mapeamento CIA Aberta.pdf>]
-<apendice/Mapeamento CIA Aberta.pdf, id=648, page=2, 845.1575pt x 597.23125pt>
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 2>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page2 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 2>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page2 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 2>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page2 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
- [70
-
- <./apendice/Mapeamento CIA Aberta.pdf>]
-<apendice/Mapeamento CIA Aberta.pdf, id=654, page=3, 845.1575pt x 597.23125pt>
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 3>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page3 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 3>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page3 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 3>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page3 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
- [71
-
- <./apendice/Mapeamento CIA Aberta.pdf>]
-<apendice/Mapeamento CIA Aberta.pdf, id=661, page=4, 845.1575pt x 597.23125pt>
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 4>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page4 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 4>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page4 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 4>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page4 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
- [72
-
- <./apendice/Mapeamento CIA Aberta.pdf>]
-<apendice/Mapeamento CIA Aberta.pdf, id=667, page=5, 845.1575pt x 597.23125pt>
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 5>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page5 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 5>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page5 used on inp
-ut line 355.
-(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
-File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 5>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page5 used on inp
 ut line 355.
 (pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
  [73
 
  <./apendice/Mapeamento CIA Aberta.pdf>]
-<apendice/Mapeamento CIA Aberta.pdf, id=673, page=6, 845.1575pt x 597.23125pt>
+<apendice/Mapeamento CIA Aberta.pdf, id=688, page=2, 845.1575pt x 597.23125pt>
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 6>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page6 used on inp
+<use apendice/Mapeamento CIA Aberta.pdf, page 2>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page2 used on inp
 ut line 355.
 (pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 6>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page6 used on inp
+<use apendice/Mapeamento CIA Aberta.pdf, page 2>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page2 used on inp
 ut line 355.
 (pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
 File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
-<use apendice/Mapeamento CIA Aberta.pdf, page 6>
-Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page6 used on inp
+<use apendice/Mapeamento CIA Aberta.pdf, page 2>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page2 used on inp
 ut line 355.
 (pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
  [74
+
+ <./apendice/Mapeamento CIA Aberta.pdf>]
+<apendice/Mapeamento CIA Aberta.pdf, id=694, page=3, 845.1575pt x 597.23125pt>
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 3>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page3 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 3>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page3 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 3>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page3 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+ [75
+
+ <./apendice/Mapeamento CIA Aberta.pdf>]
+<apendice/Mapeamento CIA Aberta.pdf, id=700, page=4, 845.1575pt x 597.23125pt>
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 4>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page4 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 4>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page4 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 4>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page4 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+ [76
+
+ <./apendice/Mapeamento CIA Aberta.pdf>]
+<apendice/Mapeamento CIA Aberta.pdf, id=706, page=5, 845.1575pt x 597.23125pt>
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 5>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page5 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 5>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page5 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 5>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page5 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+ [77
+
+ <./apendice/Mapeamento CIA Aberta.pdf>]
+<apendice/Mapeamento CIA Aberta.pdf, id=713, page=6, 845.1575pt x 597.23125pt>
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 6>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page6 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 6>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page6 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+File: apendice/Mapeamento CIA Aberta.pdf Graphic file (type pdf)
+<use apendice/Mapeamento CIA Aberta.pdf, page 6>
+Package pdftex.def Info: apendice/Mapeamento CIA Aberta.pdf , page6 used on inp
+ut line 355.
+(pdftex.def)             Requested size: 596.81622pt x 421.74068pt.
+ [78
 
  <./apendice/Mapeamento CIA Aberta.pdf>]
 ApÃªndice H.
@@ -2723,7 +3407,7 @@ ApÃªndice H.
 
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema primeira modelagem.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<apendice/esquema primeira modelagem.pdf, id=679, 1121.9211pt x 785.65768pt>
+<apendice/esquema primeira modelagem.pdf, id=719, 1121.9211pt x 785.65768pt>
 File: apendice/esquema primeira modelagem.pdf Graphic file (type pdf)
 <use apendice/esquema primeira modelagem.pdf>
 Package pdftex.def Info: apendice/esquema primeira modelagem.pdf  used on input
@@ -2746,7 +3430,7 @@ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema primeira modelagem.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<apendice/esquema primeira modelagem.pdf, id=682, page=1, 1121.9211pt x 785.657
+<apendice/esquema primeira modelagem.pdf, id=722, page=1, 1121.9211pt x 785.657
 68pt>
 File: apendice/esquema primeira modelagem.pdf Graphic file (type pdf)
 <use apendice/esquema primeira modelagem.pdf, page 1>
@@ -2758,7 +3442,7 @@ File: apendice/esquema primeira modelagem.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/esquema primeira modelagem.pdf , page1 used o
 n input line 359.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
-[75
+[79
 
 ]
 File: apendice/esquema primeira modelagem.pdf Graphic file (type pdf)
@@ -2776,7 +3460,7 @@ File: apendice/esquema primeira modelagem.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/esquema primeira modelagem.pdf , page1 used o
 n input line 359.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
- [76
+ [80
 
  <./apendice/esquema primeira modelagem.pdf>]
 ApÃªndice I.
@@ -2785,7 +3469,7 @@ ApÃªndice I.
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema algumas modelagem depois.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<apendice/esquema algumas modelagem depois.pdf, id=703, 1121.9211pt x 785.65768
+<apendice/esquema algumas modelagem depois.pdf, id=743, 1121.9211pt x 785.65768
 pt>
 File: apendice/esquema algumas modelagem depois.pdf Graphic file (type pdf)
 <use apendice/esquema algumas modelagem depois.pdf>
@@ -2812,7 +3496,7 @@ pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema algumas modelagem depois.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<apendice/esquema algumas modelagem depois.pdf, id=706, page=1, 1121.9211pt x 7
+<apendice/esquema algumas modelagem depois.pdf, id=746, page=1, 1121.9211pt x 7
 85.65768pt>
 File: apendice/esquema algumas modelagem depois.pdf Graphic file (type pdf)
 <use apendice/esquema algumas modelagem depois.pdf, page 1>
@@ -2824,7 +3508,7 @@ File: apendice/esquema algumas modelagem depois.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/esquema algumas modelagem depois.pdf , page1 
 used on input line 363.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
-[77
+[81
 
 ]
 File: apendice/esquema algumas modelagem depois.pdf Graphic file (type pdf)
@@ -2842,7 +3526,7 @@ File: apendice/esquema algumas modelagem depois.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/esquema algumas modelagem depois.pdf , page1 
 used on input line 363.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
- [78
+ [82
 
  <./apendice/esquema algumas modelagem depois.pdf>]
 ApÃªndice J.
@@ -2850,7 +3534,7 @@ ApÃªndice J.
 
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema penultima modelagem.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<apendice/esquema penultima modelagem.pdf, id=754, 1121.9211pt x 785.65768pt>
+<apendice/esquema penultima modelagem.pdf, id=793, 1121.9211pt x 785.65768pt>
 File: apendice/esquema penultima modelagem.pdf Graphic file (type pdf)
 <use apendice/esquema penultima modelagem.pdf>
 Package pdftex.def Info: apendice/esquema penultima modelagem.pdf  used on inpu
@@ -2873,7 +3557,7 @@ pdfTeX warning: pdflatex.exe (file ./apendice/esquema penultima modelagem.pdf):
 
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema penultima modelagem.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<apendice/esquema penultima modelagem.pdf, id=757, page=1, 1121.9211pt x 785.65
+<apendice/esquema penultima modelagem.pdf, id=796, page=1, 1121.9211pt x 785.65
 768pt>
 File: apendice/esquema penultima modelagem.pdf Graphic file (type pdf)
 <use apendice/esquema penultima modelagem.pdf, page 1>
@@ -2885,7 +3569,7 @@ File: apendice/esquema penultima modelagem.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/esquema penultima modelagem.pdf , page1 used 
 on input line 367.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
-[79
+[83
 
 ]
 File: apendice/esquema penultima modelagem.pdf Graphic file (type pdf)
@@ -2903,7 +3587,7 @@ File: apendice/esquema penultima modelagem.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendice/esquema penultima modelagem.pdf , page1 used 
 on input line 367.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
- [80
+ [84
 
  <./apendice/esquema penultima modelagem.pdf>]
 ApÃªndice K.
@@ -2912,7 +3596,7 @@ ApÃªndice K.
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema-logico ultimo presente no
  codgio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<apendice/esquema-logico ultimo presente no codgio.pdf, id=804, 1121.9211pt x 7
+<apendice/esquema-logico ultimo presente no codgio.pdf, id=844, 1121.9211pt x 7
 85.65768pt>
 File: apendice/esquema-logico ultimo presente no codgio.pdf Graphic file (type 
 pdf)
@@ -2941,7 +3625,7 @@ pdfTeX warning: pdflatex.exe (file ./apendice/esquema-logico ultimo presente no
 pdfTeX warning: pdflatex.exe (file ./apendice/esquema-logico ultimo presente no
  codgio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<apendice/esquema-logico ultimo presente no codgio.pdf, id=807, page=1, 1121.92
+<apendice/esquema-logico ultimo presente no codgio.pdf, id=847, page=1, 1121.92
 11pt x 785.65768pt>
 File: apendice/esquema-logico ultimo presente no codgio.pdf Graphic file (type 
 pdf)
@@ -2955,7 +3639,7 @@ pdf)
 Package pdftex.def Info: apendice/esquema-logico ultimo presente no codgio.pdf 
 , page1 used on input line 371.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
-[81
+[85
 
 ]
 File: apendice/esquema-logico ultimo presente no codgio.pdf Graphic file (type 
@@ -2976,19 +3660,15 @@ pdf)
 Package pdftex.def Info: apendice/esquema-logico ultimo presente no codgio.pdf 
 , page1 used on input line 371.
 (pdftex.def)             Requested size: 597.18323pt x 418.19481pt.
- [82
+ [86
 
  <./apendice/esquema-logico ultimo presente no codgio.pdf>]
 runsystem(makeindex monografia.idx)...executed safely (allowed).
 
 
-(monografia.ind) [83
+(monografia.ind) [87
 
-]
-runsystem(latexminted cleantemp  --timestamp 20250625153537 BD2D0FEC491B8355352
-DBA7DD970BB57)...executed.
-
- (monografia.aux)
+] (monografia.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -3007,32 +3687,33 @@ Package logreq Info: Writing requests to 'monografia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31099 strings out of 474486
- 598791 string characters out of 5739507
+ 31323 strings out of 474486
+ 604476 string characters out of 5739507
  1971542 words of memory out of 5000000
- 52667 multiletter control sequences out of 15000+600000
- 592243 words of font info for 88 fonts, out of 8000000 for 9000
+ 52858 multiletter control sequences out of 15000+600000
+ 594293 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,18n,131p,1157b,4451s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vinicius.costa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ectt1200.pk><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/vinicius.costa/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/vinicius.costa/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
-/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/vinicius.costa/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vinicius.
-costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.
-pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
-etic/uhvb8a.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/urw/helvetic/uhvbo8a.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/Mi
-KTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vinicius.costa/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (85 pages, 681352 bytes).
+i600\ecrm1200.pk> <C:\Users\vinicius.costa\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ectt1200.pk><C:/Users/vinicius.costa/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/vinicius.costa/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/v
+inicius.costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/vinicius.costa/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/vinicius.cos
+ta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+symbols/msbm10.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/helvetic/uhvb8a.pfb><C:/Users/vinicius.costa/AppData/Local/Programs/
+MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/vinicius.costa/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vinicius.cost
+a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on monografia.pdf (89 pages, 713032 bytes).
 PDF statistics:
- 1194 PDF objects out of 1200 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 693 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1273 PDF objects out of 1440 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
